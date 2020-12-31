@@ -1,0 +1,57 @@
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+import Home from './components/Home/Home';
+import About from './components/Home/About';
+import FilterPortfolio from './components/Portfolio/FilterPortfolio';
+import Illustration from './components/Portfolio/Illustration';
+import Webdesign from './components/Portfolio/Webdesign';
+import Publications from './components/Portfolio/Publications';
+import Shop from './components/Home/Shop';
+
+import Comics from './components/Portfolio/Illustration/Comics';
+import Posters from './components/Portfolio/Illustration/Posters';
+
+import './assets/css/styles.css';
+
+export default function App() {
+  return (
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route exact path="/portfolio">
+            <FilterPortfolio />
+          </Route>
+
+          <Route exact path="/illustration">
+            <Illustration />
+          </Route>
+          <Route exact path="/illustration/bd">
+            <Comics />
+          </Route>
+          <Route exact path="/illustration/posters">
+            <Posters />
+          </Route>
+          
+          <Route exact path="/webdesign">
+            <Webdesign />
+          </Route>
+          <Route exact path="/publications">
+            <Publications />
+          </Route>
+          <Route exact path="/shop">
+            <Shop />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
+}

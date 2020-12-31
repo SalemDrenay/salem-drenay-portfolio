@@ -1,0 +1,41 @@
+.illustration {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--second-dark);
+}
+
+.illustration h2 {
+    margin-top: calc(var(--spacing) * 2);
+}
+
+.illu-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.filter-card {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    margin: calc(var(--spacing) * 2);
+    background-color: rgb(131, 26, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .illustration {
+        margin: calc(var(--spacing) * 5);
+    }
+
+    .filter-card {
+        height: 300px;
+        margin: calc(var(--spacing) * 3) var(--spacing);
+    }
+}

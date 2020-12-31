@@ -1,0 +1,61 @@
+.shop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: calc(var(--spacing) * 2);
+}
+
+.shop-box {
+    padding: calc(var(--spacing) * 2);
+    width: 70%;
+    border-radius: 15px;
+    background-color: var(--second-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portrait-shop {
+    width: 50%;
+    max-width: 300px;
+    margin-top: calc(var(--spacing) *2);
+}
+
+.shopButton {
+    background-image: linear-gradient(
+        to bottom right,
+        var(--third-color),
+        var(--main-color),
+        var(--second-color)
+    );
+    border: 1px solid var(--light);
+    border-radius: 15px;
+    padding: var(--spacing);
+    width: 120px;
+    margin: var(--spacing);
+    margin-top: calc(var(--spacing) * 2);
+    color: var(--light);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .shop {
+        flex-direction: row-reverse;
+        height: 94vh;
+        justify-content: space-around;
+    }
+
+    .shop-box {
+        width: 50%;
+        padding: calc(var(--spacing) * 3);
+    }
+
+    .portrait-shop {
+        max-width: 500px;
+    }
+}

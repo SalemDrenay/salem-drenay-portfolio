@@ -1,0 +1,74 @@
+:root {
+    --light: hsl(315, 91%, 96%);
+    --dark: hsl(320, 7%, 9%);
+    --second-dark: hsl(291, 9%, 16%);
+    --main-color: #c1368c;
+    --second-color: #53093e;
+    --third-color: #72a2fc;
+    --spacing: 8px;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+html,
+body,
+#root {
+    height: 100%;
+}
+  
+#root {
+    display: flex;
+    flex-direction: column;
+}
+  
+body {
+    background: url("../images/superposition.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: var(--dark);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--light);
+}
+
+.App {
+    min-height: 100vh;
+    position: relative;
+}
+  
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: var(--spacing) calc(var(--spacing) * 4);
+    color: var(--light);
+}
+  
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: var(--spacing);
+    margin-bottom: calc(var(--spacing) * 2);
+    text-align: center;
+  }
+  
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--light);
+}
+
+a:visited {
+    color: var(--light);
+}

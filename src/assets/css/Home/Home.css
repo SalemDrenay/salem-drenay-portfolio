@@ -1,0 +1,23 @@
+.welcome-banner {
+    height: 100vh;
+    background: url("../../images/Home/head.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:  var(--second-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 70%;
+    max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        max-width: 250px;
+    }
+}

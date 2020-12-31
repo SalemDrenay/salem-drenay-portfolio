@@ -1,0 +1,38 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: calc(var(--spacing) * 2);
+}
+
+.about-box {
+    width: 70%;
+    background-color: var(--second-dark);
+    padding: calc(var(--spacing) * 2);
+    border-radius: 15px;
+}
+
+.portrait-about {
+    width: 70%;
+    max-width: 300px;
+    margin-top: calc(var(--spacing) *2);
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        flex-direction: row;
+        height: 94vh;
+        justify-content: space-around;
+    }
+
+    .about-box {
+        width: 50%;
+        padding: calc(var(--spacing) * 3);
+    }
+
+    .portrait-about {
+        max-width: 500px;
+    }
+}
