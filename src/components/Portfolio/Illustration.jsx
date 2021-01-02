@@ -15,6 +15,9 @@ function Illustration() {
                 <div className="filter-card filter-vectoriel">
                     <h3>Vectoriel</h3>
                 </div>
+                <div className="filter-card filter-fanart">
+                    <h3>Fanart</h3>
+                </div>
                 <div className="filter-card filter-jdr">
                     <h3>Jeu de rôle</h3>
                 </div>

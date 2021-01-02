@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+/*import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { photos } from "./gallery-posters";
@@ -36,6 +36,19 @@ function Posters() {
       </ModalGateway>
     </div>
   );
+}
+
+export default Posters;
+*/
+
+import React from 'react';
+
+function Posters() {
+    return (
+        <div className="posters">
+            <h2>Affiches / Couvertures</h2>
+        </div>
+    )
 }
 
 export default Posters;

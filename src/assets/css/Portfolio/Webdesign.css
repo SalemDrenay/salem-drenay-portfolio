@@ -1,0 +1,35 @@
+.webdesign {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--second-dark);
+}
+
+.webdesign h2 {
+    margin-top: calc(var(--spacing) * 2);
+}
+
+.webdesign-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.filter-puntacana {
+    background-image: url('../../images/Portfolio/webdesign/puntacana.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+
+    .webdesign {
+        margin: calc(var(--spacing) * 5);
+        min-height: 50vh;
+        justify-content: center;
+        align-items: center;
+    }
+}
