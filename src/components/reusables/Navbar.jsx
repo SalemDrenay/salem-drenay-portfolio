@@ -6,11 +6,19 @@ function Home() {
     return (
         <div className="navbar">
             <h3>Salem Drenay</h3>
-            <ul>
-                <li>Accueil</li>
-                <li>À propos</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+            <ul className="nav-links">
+                <Link to={'/'}>
+                    <li>Accueil</li>
+                </Link>
+                <Link to={'/about'} className="nav-link">
+                    <li>À propos</li>
+                </Link>
+                <Link to={'/webdesign'} className="nav-link">
+                    <li>Portfolio</li>
+                </Link>
+                <Link to={'/illustration'} className="nav-link">
+                    <li>Contact</li>
+                </Link>
             </ul>
         </div>
     )

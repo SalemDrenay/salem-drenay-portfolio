@@ -7,7 +7,7 @@
 }
 
 .webdesign h2 {
-    margin-top: calc(var(--spacing) * 2);
+    margin-top: calc(var(--spacing) * 15);
 }
 
 .webdesign-cards {
@@ -42,9 +42,14 @@
 
     .webdesign {
         margin: calc(var(--spacing) * 5);
+        margin-top: calc(var(--spacing) * 15);
         min-height: 50vh;
         justify-content: center;
         align-items: center;
+    }
+
+    .webdesign h2 {
+        margin-top: calc(var(--spacing) * 2);
     }
 
     .filter-description {
