@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import Welcome from './Welcome';
+import logo from '../../assets/images/logo.png';
 import '../../assets/css/Home/Home.css';
 
 function Home() {
     return (
-        <div>
-            <Welcome />
-        </div>
+        <section className="welcome-banner">
+            <img className="logo" src={logo} alt="logo" />
+            <h1>Salem Drenay</h1>
+        </section>
     )
 }
 

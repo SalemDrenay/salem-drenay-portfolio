@@ -1,4 +1,5 @@
 @import './global.css';
+@import './reusables/Navbar.css';
 @import './Home/Home.css';
 @import './Home/About.css';
 @import './Home/Shop.css';

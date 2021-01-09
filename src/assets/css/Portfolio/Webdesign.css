@@ -18,8 +18,22 @@
     width: 100%;
 }
 
+.webdesign-cards .filter-card {
+    text-align: center;
+}
+
+.filter-description {
+    display: none;
+}
+
 .filter-puntacana {
     background-image: url('../../images/Portfolio/webdesign/puntacana.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.filter-tlorean {
+    background-image: url('../../images/Portfolio/webdesign/tlorean.png');
     background-position: center;
     background-size: cover;
 }
@@ -31,5 +45,14 @@
         min-height: 50vh;
         justify-content: center;
         align-items: center;
+    }
+
+    .filter-description {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: calc(var(--spacing) * 2);
+        background-color: hsla(328, 7%, 40%, 0.9);
+        border-radius: 5px;
     }
 }
