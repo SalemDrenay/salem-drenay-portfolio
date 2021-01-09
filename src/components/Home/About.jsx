@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../reusables/Navbar';
+import Social from '../reusables/Social';
 import portrait from '../../assets/images/Home/portrait.png';
 
 function About() {
@@ -15,6 +16,7 @@ function About() {
                         Je réussis également très bien les tartes aux pommes.<br/>
                         RESEAUX
                     </p>
+                    <Social />
                 </div>
                 <img src={portrait} className="portrait-about" alt="portrait de Salem"></img>
             </div>

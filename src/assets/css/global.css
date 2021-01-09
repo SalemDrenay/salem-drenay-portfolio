@@ -2,6 +2,7 @@
     --light: hsl(315, 91%, 96%);
     --dark: hsl(320, 7%, 9%);
     --second-dark: hsl(291, 9%, 16%);
+    --third-dark: hsl(290, 8%, 28%);
     --main-color: #c1368c;
     --second-color: #53093e;
     --third-color: #72a2fc;
@@ -28,6 +29,8 @@ body {
     background: url("../images/superposition.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-blend-mode: multiply;
     background-color: var(--dark);
     font-family: 'Montserrat', sans-serif;

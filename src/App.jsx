@@ -12,6 +12,7 @@ import Illustration from './components/Portfolio/Illustration';
 import Webdesign from './components/Portfolio/Webdesign';
 import Publications from './components/Portfolio/Publications';
 import Shop from './components/Home/Shop';
+import Contact from './components/Home/Contact';
 
 import Comics from './components/Portfolio/Illustration/Comics';
 import Posters from './components/Portfolio/Illustration/Posters';
@@ -49,6 +50,9 @@ export default function App() {
           </Route>
           <Route exact path="/shop">
             <Shop />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>

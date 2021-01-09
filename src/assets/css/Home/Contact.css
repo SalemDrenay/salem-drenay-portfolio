@@ -1,0 +1,59 @@
+.contact {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--second-dark);
+    padding: calc(var(--spacing) * 2);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact-container h2 {
+    margin-top: calc(var(--spacing) * 15);
+}
+
+.contact-box {
+    margin: calc(var(--spacing) * 2);
+    text-align: center;
+}
+
+.contact-box h3 {
+    margin-bottom: var(--spacing);
+}
+
+.cv-download {
+    padding: calc(var(--spacing) * 5);
+    border-radius: 10px;
+    background: url("../../images/Contact/cv-mini.png");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: var(--third-dark);
+}
+
+.cv-download:hover {
+    background-color: var(--light);
+    color: rgba(255, 255, 255, 0);
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact-container {
+        width: 90%;
+        min-height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-container h2 {
+        margin-top: calc(var(--spacing) * 2);
+    }
+}

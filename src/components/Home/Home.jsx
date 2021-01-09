@@ -8,7 +8,7 @@ function Home() {
         <>
             <Navbar />
             <section className="welcome-banner">
-                <img className="logo" src={logo} alt="logo" />
+                <img className="logo" src={logo} alt="logo de Salem Drenay" />
                 <h1>Salem Drenay</h1>
             </section>
         </>

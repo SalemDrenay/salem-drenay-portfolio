@@ -1,8 +1,12 @@
 @import './global.css';
 @import './reusables/Navbar.css';
+@import './reusables/Social.css';
+
 @import './Home/Home.css';
 @import './Home/About.css';
-@import './Home/Shop.css';
 @import './Portfolio/FilterPortfolio.css';
+@import './Home/Shop.css';
+@import './Home/Contact.css';
+
 @import './Portfolio/Illustration.css';
 @import './Portfolio/Webdesign.css';
