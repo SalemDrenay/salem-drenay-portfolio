@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Navbar from '../reusables/Navbar';
 import logo from '../../assets/images/logo.png';
 import '../../assets/css/Home/Home.css';

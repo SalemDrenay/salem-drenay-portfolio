@@ -8,7 +8,7 @@ function Webdesign() {
             <div className="webdesign">
                 <h2>Webdesign</h2>
                 <div className="webdesign-cards">
-                    <a href="https://punta-cana-bar-bx.netlify.app/" target="_blank" className="filter-card filter-puntacana">
+                    <a href="https://punta-cana-bar-bx.netlify.app/" target="_blank" rel="noreferrer" className="filter-card filter-puntacana">
                         <div className="filter-description">
                             <h3>Punta Cana Bar</h3>
                             <p>-<br/>
@@ -17,7 +17,7 @@ function Webdesign() {
                             HTML, CSS, JavaScript</p>
                         </div>
                     </a>
-                    <a href="https://t-lorean-app.herokuapp.com/" target="_blank" className="filter-card filter-tlorean">
+                    <a href="https://t-lorean-app.herokuapp.com/" target="_blank" rel="noreferrer" className="filter-card filter-tlorean">
                         <div className="filter-description">
                             <h3>T-Lorean</h3>
                             <p>-<br/>
