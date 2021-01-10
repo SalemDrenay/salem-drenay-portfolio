@@ -11,22 +11,22 @@ import youtube from '../../assets/images/icones/youtube.svg';
 function Social() {
     return (
         <div className="social-container">
-            <a href="https://www.artstation.com/salem_drenay" target="_blank">
+            <a href="https://www.artstation.com/salem_drenay" target="_blank" title="linkedin">
                 <img className="social-icon" src={linkedin} alt="lien vers linkedin" />
             </a>
-            <a href="https://www.artstation.com/salem_drenay" target="_blank">
+            <a href="https://www.artstation.com/salem_drenay" target="_blank" title="artstation">
                 <img className="social-icon" src={artstation} alt="lien vers artstation" />
             </a>
-            <a href="https://www.instagram.com/salemdrenay/" target="_blank">
+            <a href="https://www.instagram.com/salemdrenay/" target="_blank" title="instagram">
                 <img className="social-icon" src={instagram} alt="lien vers instagram" />
             </a>
-            <a href="https://twitter.com/SDrenay" target="_blank">
+            <a href="https://twitter.com/SDrenay" target="_blank" title="twitter">
                 <img className="social-icon" src={twitter} alt="lien vers twitter" />
             </a>
-            <a href="https://www.furaffinity.net/user/thevoidwalker/" target="_blank">
+            <a href="https://www.furaffinity.net/user/thevoidwalker/" target="_blank" title="furaffinity">
                 <img className="social-icon" src={furaffinity} alt="lien vers furaffinity" />
             </a>
-            <a href="https://www.youtube.com/channel/UClzxU6t826pDGQKepQUoxsA" target="_blank">
+            <a href="https://www.youtube.com/channel/UClzxU6t826pDGQKepQUoxsA" target="_blank" title="youtube">
                 <img className="social-icon" src={youtube} alt="lien vers youtube" />
             </a>
         </div>

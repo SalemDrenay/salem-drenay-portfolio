@@ -1,15 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="141.73px" height="141.73px" viewBox="0 0 141.73 141.73" enable-background="new 0 0 141.73 141.73" xml:space="preserve">
-<g id="Calque_1" display="none">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="141.73px"
+   height="141.73px"
+   viewBox="0 0 141.73 141.73"
+   enable-background="new 0 0 141.73 141.73"
+   xml:space="preserve"
+   id="svg12"
+   sodipodi:docname="artstation.svg"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"><metadata
+   id="metadata18"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs16" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1316"
+   inkscape:window-height="704"
+   id="namedview14"
+   showgrid="false"
+   inkscape:zoom="3.8806182"
+   inkscape:cx="54.492055"
+   inkscape:cy="74.745099"
+   inkscape:window-x="50"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="artstation" />
+<g
+   id="Calque_1"
+   display="none">
 </g>
-<g id="artstation">
-	<g>
-		<polygon points="53.378,9.406 125.025,132.325 141.323,101.765 88.014,9.406 		"/>
-		<polygon points="102.104,132.325 18.064,132.325 0.407,103.463 84.447,103.463 		"/>
-		<polygon points="10.254,84.447 73.752,84.447 42.003,29.439 		"/>
+<g
+   id="artstation"
+   style="fill:#f4d7d7">
+	<g
+   id="g9"
+   style="fill:#feecf9;fill-opacity:1">
+		<polygon
+   points="53.378,9.406 125.025,132.325 141.323,101.765 88.014,9.406   "
+   id="polygon3"
+   style="fill:#feecf9;fill-opacity:1" />
+		<polygon
+   points="102.104,132.325 18.064,132.325 0.407,103.463 84.447,103.463   "
+   id="polygon5"
+   style="fill:#feecf9;fill-opacity:1" />
+		<polygon
+   points="10.254,84.447 73.752,84.447 42.003,29.439   "
+   id="polygon7"
+   style="fill:#feecf9;fill-opacity:1" />
 	</g>
 </g>
 </svg>
