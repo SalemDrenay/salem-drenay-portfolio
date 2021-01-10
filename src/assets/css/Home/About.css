@@ -14,6 +14,15 @@
     border-radius: 15px;
 }
 
+.about-box p {
+    text-align: justify;
+    margin-bottom: var(--spacing);
+}
+
+.about-box h3 {
+    margin: calc(var(--spacing) * 3) 0 var(--spacing) 0;
+}
+
 .portrait-about {
     width: 70%;
     max-width: 300px;
@@ -28,8 +37,10 @@
     }
 
     .about-box {
-        width: 45%;
+        width: 50%;
         padding: calc(var(--spacing) * 3);
+        margin-top: 30px;
+        margin-bottom: calc(var(--spacing) *2);
     }
 
     .portrait-about {
