@@ -16,7 +16,7 @@ function Contact() {
                         <p>salemdrenay@gmail.com</p>
                     </div>
                     <div className="contact-box contact-cv">
-                        <a href="/files/CV_damien thibault_programmeur.pdf" target="_blank" download>
+                        <a href="/files/CV_damien-thibault_programmeur.pdf" target="_blank" download>
                             <div className="cv-download">
                                 <h3>Télécharger mon CV</h3>
                             </div>
