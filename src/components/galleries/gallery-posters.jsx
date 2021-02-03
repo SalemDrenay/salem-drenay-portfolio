@@ -2,31 +2,51 @@ import Anubis from '../../assets/images/Portfolio/illu/posters/anubis-files.jpg'
 import Hybrides from '../../assets/images/Portfolio/illu/posters/hybrides.jpg';
 import Immortels from '../../assets/images/Portfolio/illu/posters/immortels.jpg';
 import Streets from '../../assets/images/Portfolio/illu/posters/ofstreetsandsheets.jpg';
+import Reincarnate from '../../assets/images/Portfolio/illu/jdr/MoiRéincarneMonstre/PosterArc2_Ina.jpg';
+import OCF from '../../assets/images/Portfolio/illu/jdr/OccultCityForce/OcfPoster.jpg';
 
 export const photos = [
     {
       src: Immortels,
       width: 2,
       height: 3,
-      alt: "couverture montrant un dieu chien et un vampire sur un tas de crânes"
+      title: "couverture du tome 1 d'Immortels à problèmes",
+      alt: "un dieu chien et un vampire sur un tas de crânes"
     },
     {
       src: Streets,
       width: 5,
       height: 4,
-      alt: "couvertures jointes montrant un chien dans des rues éclairées au néon"
+      title: "test de couvertures jointes pour les deux tomes d'Of Streets & Sheets",
+      alt: "un chien dans des rues éclairées au néon"
     },
     {
       src: Anubis,
       width: 2,
       height: 3,
-      alt: "couverture montrant un dieu chien et un vampire qui épient un nécromancien"
+      title: "couverture de l'ancienne version d'Immortels à problèmes",
+      alt: "un dieu chien et un vampire qui épient un nécromancien"
     },
     {
       src: Hybrides,
       width: 2,
       height: 3,
-      alt: "couverture montrant une empreinte de patte animale faite d'empreintes digitales humaines"
+      title: "couverture d'un ancien projet",
+      alt: "une empreinte de patte animale faite d'empreintes digitales humaines"
+    },
+    {
+      src: Reincarnate,
+      width: 2,
+      height: 3,
+      title: "poster d'un groupe de jeu de rôle typé fantasy",
+      alt: "une empreinte de patte animale faite d'empreintes digitales humaines"
+    },
+    {
+      src: OCF,
+      width: 2,
+      height: 3,
+      title: "poster d'un groupe de jeu de rôle typé cyberpunk et surnaturel",
+      alt: "une empreinte de patte animale faite d'empreintes digitales humaines"
     }
   ];
   
