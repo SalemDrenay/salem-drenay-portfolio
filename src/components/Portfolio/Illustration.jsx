@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../assets/css/styles.css'
 
 function Illustration() {
     return (

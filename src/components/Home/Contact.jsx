@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../reusables/Navbar';
 import Social from '../reusables/Social';
-import '../../assets/css/Home/Contact.css';
+import '../../assets/css/styles.css';
 
 function Contact() {
     return (

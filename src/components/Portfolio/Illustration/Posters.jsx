@@ -4,7 +4,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Navbar from '../../reusables/Navbar';
 import { photos } from "../../galleries/gallery-posters";
-import '../../../assets/css/Portfolio/Illustration/Posters.css';
+import '../../../assets/css/styles.css';
 
 function Posters() {
   const [currentImage, setCurrentImage] = useState(0);

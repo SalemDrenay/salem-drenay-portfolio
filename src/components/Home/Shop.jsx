@@ -1,5 +1,7 @@
 import React from 'react';
+
 import portrait from '../../assets/images/Home/portrait.png';
+import '../../assets/css/styles.css';
 
 function Shop() {
     return (
