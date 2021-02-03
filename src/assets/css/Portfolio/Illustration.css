@@ -3,10 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: var(--second-dark);
-}
-
-.illustration h2 {
-    margin-top: calc(var(--spacing) * 2);
+    padding-top:  calc(var(--spacing) * 7);
 }
 
 .illu-cards {
@@ -31,7 +28,9 @@
 @media screen and (min-width: 768px) {
 
     .illustration {
-        margin: calc(var(--spacing) * 5);
+        margin: calc(var(--spacing) * 8) calc(var(--spacing) * 5);
+        padding-top: calc(var(--spacing) * 2);
+        border-radius: 15px;
     }
 
     .filter-card {

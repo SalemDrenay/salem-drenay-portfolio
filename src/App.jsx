@@ -8,14 +8,16 @@ import {
 import Home from './components/Home/Home';
 import About from './components/Home/About';
 import FilterPortfolio from './components/Portfolio/FilterPortfolio';
-import Illustration from './components/Portfolio/Illustration';
-import Webdesign from './components/Portfolio/Webdesign';
-import Publications from './components/Portfolio/Publications';
 import Shop from './components/Home/Shop';
 import Contact from './components/Home/Contact';
 
+import Illustration from './components/Portfolio/Illustration';
+import Webdesign from './components/Portfolio/Webdesign';
+import Publications from './components/Portfolio/Publications';
+
 import Comics from './components/Portfolio/Illustration/Comics';
 import Posters from './components/Portfolio/Illustration/Posters';
+import Vector from './components/Portfolio/Illustration/Vector';
 
 import './assets/css/styles.css';
 
@@ -40,6 +42,9 @@ export default function App() {
           </Route>
           <Route exact path="/illustration/posters">
             <Posters />
+          </Route>
+          <Route exact path="/illustration/vector">
+            <Vector />
           </Route>
           
           <Route exact path="/webdesign">

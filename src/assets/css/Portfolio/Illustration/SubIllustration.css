@@ -1,0 +1,51 @@
+.subillu {
+    padding-top: calc(var(--spacing)*7);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.subillu-container {
+    background-color: var(--second-dark);
+    padding: calc(var(--spacing) * 2);
+    min-height: 100vh;
+}
+
+.illu-linkto-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: calc(var(--spacing) * 2);
+}
+
+.linkto-card {
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+    margin: calc(var(--spacing) * 2);
+    border-radius: 10px;
+    background-color: rgb(131, 26, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .subillu{
+        padding-top: calc(var(--spacing)*2);
+        align-items: center;
+    }
+
+    .subillu-container {
+        width: 90%;
+        border-radius: 15px;
+        min-height: auto;
+    }
+
+    .linkto-card {
+        height: 150px;
+        margin: calc(var(--spacing) * 3) var(--spacing);
+    }
+}
