@@ -22,9 +22,9 @@ function Illustration() {
                     <div className="filter-card filter-fanart">
                         <h3>Fanart</h3>
                     </div>
-                    <div className="filter-card filter-jdr">
+                    <Link to={`/illustration/rpg`} className="filter-card filter-jdr">
                         <h3>Jeu de rôle</h3>
-                    </div>
+                    </Link>
                     <div className="filter-card filter-scenes">
                         <h3>Scènes</h3>
                     </div>

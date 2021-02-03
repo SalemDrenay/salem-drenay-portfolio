@@ -18,6 +18,7 @@ import Publications from './components/Portfolio/Publications';
 import Comics from './components/Portfolio/Illustration/Comics';
 import Posters from './components/Portfolio/Illustration/Posters';
 import Vector from './components/Portfolio/Illustration/Vector';
+import Rpg from './components/Portfolio/Illustration/Rpg';
 
 import './assets/css/styles.css';
 
@@ -45,6 +46,9 @@ export default function App() {
           </Route>
           <Route exact path="/illustration/vector">
             <Vector />
+          </Route>
+          <Route exact path="/illustration/rpg">
+            <Rpg />
           </Route>
           
           <Route exact path="/webdesign">
