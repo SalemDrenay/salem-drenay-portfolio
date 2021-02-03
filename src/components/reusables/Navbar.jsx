@@ -20,6 +20,27 @@ function Home() {
                     <li>Contact</li>
                 </Link>
             </ul>
+            <div id="menu-burger">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                      
+                <ul id="menu">
+                    <Link to={'/'}>
+                        <li>Accueil</li>
+                    </Link>
+                    <Link to={'/about'} className="nav-link">
+                        <li>À propos</li>
+                    </Link>
+                    <Link to={'/portfolio'} className="nav-link">
+                        <li>Portfolio</li>
+                    </Link>
+                    <Link to={'/contact'} className="nav-link">
+                        <li>Contact</li>
+                    </Link>
+                </ul>
+            </div>
         </div>
     )
 }
