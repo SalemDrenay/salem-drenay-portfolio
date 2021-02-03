@@ -13,7 +13,7 @@ function Home() {
                 <Link to={'/about'} className="nav-link">
                     <li>À propos</li>
                 </Link>
-                <Link to={'/webdesign'} className="nav-link">
+                <Link to={'/portfolio'} className="nav-link">
                     <li>Portfolio</li>
                 </Link>
                 <Link to={'/contact'} className="nav-link">

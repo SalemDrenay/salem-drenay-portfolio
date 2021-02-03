@@ -6,6 +6,7 @@
     align-items: center;
     text-transform: uppercase;
     position:fixed;
+    top: 0;
     width: 98%;
 }
 

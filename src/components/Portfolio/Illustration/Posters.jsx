@@ -1,7 +1,9 @@
-/*import React, { useState, useCallback } from "react";
+import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./gallery-posters";
+
+import Navbar from '../../reusables/Navbar';
+import { photos } from "../../galleries/gallery-posters";
 
 function Posters() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -19,36 +21,29 @@ function Posters() {
 
   return (
     <div>
-      <Gallery photos={photos} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={photos.map(x => ({
-                ...x,
-                srcset: x.srcSet,
-                caption: x.title
-              }))}
-            />
-          </Modal>
-        ) : null}
-      </ModalGateway>
+      <Navbar />
+      <div className="posters">
+        <h2>Affiches &amp; couvertures</h2>
+        <div className="posters-gallery">
+          <Gallery photos={photos} onClick={openLightbox} />
+          <ModalGateway>
+            {viewerIsOpen ? (
+              <Modal onClose={closeLightbox}>
+                <Carousel
+                  currentIndex={currentImage}
+                  views={photos.map(x => ({
+                    ...x,
+                    srcset: x.srcSet,
+                    caption: x.title
+                  }))}
+                />
+              </Modal>
+            ) : null}
+          </ModalGateway>
+        </div>
+      </div>
     </div>
   );
-}
-
-export default Posters;
-*/
-
-import React from 'react';
-
-function Posters() {
-    return (
-        <div className="posters">
-            <h2>Affiches / Couvertures</h2>
-        </div>
-    )
 }
 
 export default Posters;
