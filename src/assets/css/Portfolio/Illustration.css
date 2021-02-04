@@ -19,10 +19,43 @@
     max-width: 300px;
     height: 150px;
     margin: calc(var(--spacing) * 2);
-    background-color: rgb(131, 26, 61);
+    background-color:var(--second-dark);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.filter-card:hover {
+    background-color: hsl(289, 7%, 45%);
+}
+
+/* FILTER CARDS */
+
+.filter-armors {
+    background-image: url('../../images/Portfolio/illu/armures/lesbian.jpg');
+}
+
+.filter-conceptart {
+    background-image: url('../../images/Portfolio/illu/conceptart/cloudcity/duo.jpg');
+}
+
+.filter-jdr {
+    background-image: url('../../images/Portfolio/illu/jdr/OccultCityForce/uther.jpg');
+}
+
+.filter-mytholodex {
+    background-image: url('../../images/Portfolio/illu/mytholodex/argus.jpg');
+}
+
+.filter-posters {
+    background-image: url('../../images/Portfolio/illu/jdr/OccultCityForce/OcfPoster.jpg');
+}
+
+.filter-vectoriel {
+    background-image: url('../../images/Portfolio/illu/vectoriel/crossover.jpg');
 }
 
 @media screen and (min-width: 768px) {

@@ -19,6 +19,11 @@ import Comics from './components/Portfolio/Illustration/Comics';
 import Posters from './components/Portfolio/Illustration/Posters';
 import Vector from './components/Portfolio/Illustration/Vector';
 import Rpg from './components/Portfolio/Illustration/Rpg';
+import ConceptArt from './components/Portfolio/Illustration/ConceptArt';
+import PrideArmors from './components/Portfolio/Illustration/PrideArmors';
+import Mytholodex from './components/Portfolio/Illustration/Mytholodex';
+
+import CloudCity from './components/Portfolio/Illustration/CloudCity';
 
 import './assets/css/styles.css';
 
@@ -49,6 +54,19 @@ export default function App() {
           </Route>
           <Route exact path="/illustration/rpg">
             <Rpg />
+          </Route>
+          <Route exact path="/illustration/conceptart">
+            <ConceptArt />
+          </Route>
+          <Route exact path="/illustration/mytholodex">
+            <Mytholodex />
+          </Route>
+          <Route exact path="/illustration/pridearmors">
+            <PrideArmors />
+          </Route>
+
+          <Route exact path="/illustration/cloudcity">
+            <CloudCity />
           </Route>
           
           <Route exact path="/webdesign">
