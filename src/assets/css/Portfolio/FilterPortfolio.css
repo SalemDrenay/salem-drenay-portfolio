@@ -23,7 +23,7 @@
 }
 
 .filter-illustration-box {
-    background: url("../../images/Home/head.jpg");
+    background: url("../../images/Portfolio/illustration.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
@@ -31,7 +31,7 @@
 }
 
 .filter-webdesign-box {
-    background: url("../../images/Home/head.jpg");
+    background: url("../../images/Portfolio/webdesign.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
@@ -39,7 +39,7 @@
 }
 
 .filter-publications-box {
-    background: url("../../images/Home/head.jpg");
+    background: url("../../images/Portfolio/publications.jpg");
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;

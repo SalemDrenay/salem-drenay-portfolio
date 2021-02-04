@@ -1,0 +1,124 @@
+.subillu {
+    padding-top: calc(var(--spacing)*7);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.subillu-container {
+    background-color: var(--second-dark);
+    padding: calc(var(--spacing) * 2);
+    min-height: 100vh;
+}
+
+.illu-linkto-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: calc(var(--spacing) * 2);
+}
+
+.linkto-card {
+    width: 100%;
+    max-width: 300px;
+    height: 100px;
+    margin: calc(var(--spacing) * 2);
+    border-radius: 10px;
+    border: 1px solid var(--third-dark);
+    background-color:var(--second-dark);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkto-card:hover {
+    background-color: hsl(289, 7%, 45%);
+}
+
+/* ARRIERE-PLAN DES CARTES "FANART" */
+
+.filter-cartoons {
+    background-image: url('../../../images/Portfolio/illu/fanart/cartoons-mangas/shera_shera.jpg');
+}
+
+.filter-digimon {
+    background-image: url('../../../images/Portfolio/illu/fanart/Digimon/badge_agumon.jpg');
+}
+
+.filter-hollowknight {
+    background-image: url('../../../images/Portfolio/illu/fanart/HollowKnight/poster.jpg');
+}
+
+.filter-LiS {
+    background-image: url('../../../images/Portfolio/illu/fanart/LifeIsStrange/badge_lis1.jpg');
+}
+
+.filter-NitW {
+    background-image: url('../../../images/Portfolio/illu/fanart/NightInTheWoods/sticker_gang.jpg');
+}
+
+.filter-ori {
+    background-image: url('../../../images/Portfolio/illu/fanart/Ori/ori.jpg');
+}
+
+.filter-pokemon {
+    background-image: url('../../../images/Portfolio/illu/fanart/Pokemon/badges_pikachu.jpg');
+}
+
+.filter-poudlard {
+    background-image: url('../../../images/Portfolio/illu/fanart/Poudlard/house_serpentard.jpg');
+}
+
+.filter-shovelknight {
+    background-image: url('../../../images/Portfolio/illu/fanart/ShovelKnight/badge_shovel.jpg');
+}
+
+.filter-wonderboy {
+    background-image: url('../../../images/Portfolio/illu/fanart/Wonderboy/badges_wb3.jpg');
+}
+
+/* ARRIERE-PLAN DES CARTES "CONCEPT ART" */
+
+.filter-conceptanubis {
+    background-image: url('../../../images/Portfolio/illu/conceptart/anubis/chara5_poses.jpg');
+}
+
+.filter-cloudcity {
+    background-image: url('../../../images/Portfolio/illu/conceptart/cloudcity/duo.jpg');
+}
+
+.filter-concepthybrides {
+    background-image: url('../../../images/Portfolio/illu/conceptart/hybrides/clarence1.jpg');
+}
+
+.filter-drenay {
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/final_miniature.jpg');
+}
+
+.filter-preymask {
+    background-image: url('../../../images/Portfolio/illu/conceptart/mask/blessee.jpg');
+}
+
+@media screen and (min-width: 768px) {
+    .subillu{
+        padding-top: calc(var(--spacing)*2);
+        align-items: center;
+    }
+
+    .subillu-container {
+        width: 90%;
+        border-radius: 15px;
+        min-height: auto;
+        margin: calc(var(--spacing)*5) 0;
+    }
+
+    .linkto-card {
+        height: 150px;
+        margin: calc(var(--spacing) * 3) var(--spacing);
+    }
+}

@@ -1,8 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Navbar from '../reusables/Navbar';
+import '../../assets/css/styles.css';
+
 function FilterPortfolio() {
     return (
+        <>
+        <Navbar />
         <div className="filter-portfolio">
             <h2>Portfolio</h2>
             <div className="filter-portfolio-boxes">
@@ -17,6 +22,7 @@ function FilterPortfolio() {
                 </Link>
             </div>
         </div>
+        </>
     )
 }
 
