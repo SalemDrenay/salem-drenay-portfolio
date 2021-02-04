@@ -26,12 +26,20 @@
     height: 100px;
     margin: calc(var(--spacing) * 2);
     border-radius: 10px;
-    background-color: rgb(131, 26, 61);
+    background-color:var(--second-dark);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.linkto-card:hover {
+    background-color: hsl(289, 7%, 45%);
+}
+
+/* ARRIERE-PLAN DES CARTES DE REDIRECTION */
 
 .filter-cloudcity {
     background-image: url('../../../images/Portfolio/illu/conceptart/cloudcity/duo.jpg');

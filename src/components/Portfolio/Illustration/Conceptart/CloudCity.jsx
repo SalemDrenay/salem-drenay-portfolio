@@ -2,9 +2,9 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-import Navbar from '../../reusables/Navbar';
-import { photos } from "../../galleries/gallery-cloudcity";
-import '../../../assets/css/styles.css';
+import Navbar from '../../../reusables/Navbar';
+import { photos } from "../../../galleries/Conceptart/gallery-cloudcity";
+import '../../../../assets/css/styles.css';
 
 function CloudCity() {
   const [currentImage, setCurrentImage] = useState(0);

@@ -23,7 +23,7 @@ import ConceptArt from './components/Portfolio/Illustration/ConceptArt';
 import PrideArmors from './components/Portfolio/Illustration/PrideArmors';
 import Mytholodex from './components/Portfolio/Illustration/Mytholodex';
 
-import CloudCity from './components/Portfolio/Illustration/CloudCity';
+import CloudCity from './components/Portfolio/Illustration/Conceptart/CloudCity';
 
 import './assets/css/styles.css';
 
