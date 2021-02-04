@@ -24,6 +24,10 @@ import PrideArmors from './components/Portfolio/Illustration/PrideArmors';
 import Mytholodex from './components/Portfolio/Illustration/Mytholodex';
 
 import CloudCity from './components/Portfolio/Illustration/Conceptart/CloudCity';
+import Drenay from './components/Portfolio/Illustration/Conceptart/Drenay';
+import PreyMask from './components/Portfolio/Illustration/Conceptart/PreyMask';
+import ConceptHybrides from './components/Portfolio/Illustration/Conceptart/ConceptHybrides';
+import ConceptAnubis from './components/Portfolio/Illustration/Conceptart/ConceptAnubis';
 
 import './assets/css/styles.css';
 
@@ -65,8 +69,20 @@ export default function App() {
             <PrideArmors />
           </Route>
 
-          <Route exact path="/illustration/cloudcity">
+          <Route exact path="/illustration/conceptart/cloudcity">
             <CloudCity />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay">
+            <Drenay />
+          </Route>
+          <Route exact path="/illustration/conceptart/preymask">
+            <PreyMask />
+          </Route>
+          <Route exact path="/illustration/conceptart/hybrides">
+            <ConceptHybrides />
+          </Route>
+          <Route exact path="/illustration/conceptart/anubis">
+            <ConceptAnubis />
           </Route>
           
           <Route exact path="/webdesign">

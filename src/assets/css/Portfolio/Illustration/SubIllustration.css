@@ -26,6 +26,7 @@
     height: 100px;
     margin: calc(var(--spacing) * 2);
     border-radius: 10px;
+    border: 1px solid var(--third-dark);
     background-color:var(--second-dark);
     background-position: center;
     background-size: cover;
@@ -41,8 +42,24 @@
 
 /* ARRIERE-PLAN DES CARTES DE REDIRECTION */
 
+.filter-conceptanubis {
+    background-image: url('../../../images/Portfolio/illu/conceptart/anubis/chara5_poses.jpg');
+}
+
 .filter-cloudcity {
     background-image: url('../../../images/Portfolio/illu/conceptart/cloudcity/duo.jpg');
+}
+
+.filter-concepthybrides {
+    background-image: url('../../../images/Portfolio/illu/conceptart/hybrides/clarence1.jpg');
+}
+
+.filter-drenay {
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/final_miniature.jpg');
+}
+
+.filter-preymask {
+    background-image: url('../../../images/Portfolio/illu/conceptart/mask/blessee.jpg');
 }
 
 @media screen and (min-width: 768px) {

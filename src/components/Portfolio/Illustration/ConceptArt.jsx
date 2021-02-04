@@ -4,7 +4,7 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Navbar from '../../reusables/Navbar';
-import { photos } from "../../galleries/gallery-vector";
+import { photos } from "../../galleries/Conceptart/gallery-conceptart";
 import '../../../assets/css/styles.css';
 
 function Vector() {
@@ -28,11 +28,20 @@ function Vector() {
         <div className="subillu-container">
           <h2>Concept art</h2>
           <div className="illu-linkto-cards">
-            <Link to={`/illustration/drenay`} className="linkto-card filter-drenay">
+            <Link to={`/illustration/conceptart/drenay`} className="linkto-card filter-drenay">
                 <h3>Drenay</h3>
             </Link>
-            <Link to={`/illustration/cloudcity`} className="linkto-card filter-cloudcity">
-                <h3>CloudCity</h3>
+            <Link to={`/illustration/conceptart/cloudcity`} className="linkto-card filter-cloudcity">
+                <h3>Cloud City</h3>
+            </Link>
+            <Link to={`/illustration/conceptart/preymask`} className="linkto-card filter-preymask">
+                <h3>Prey's mask</h3>
+            </Link>
+            <Link to={`/illustration/conceptart/hybrides`} className="linkto-card filter-concepthybrides">
+                <h3>Hybrides</h3>
+            </Link>
+            <Link to={`/illustration/conceptart/anubis`} className="linkto-card filter-conceptanubis">
+                <h3>Anubis</h3>
             </Link>
           </div>
 
