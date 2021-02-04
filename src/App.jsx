@@ -22,12 +22,17 @@ import Rpg from './components/Portfolio/Illustration/Rpg';
 import ConceptArt from './components/Portfolio/Illustration/ConceptArt';
 import PrideArmors from './components/Portfolio/Illustration/PrideArmors';
 import Mytholodex from './components/Portfolio/Illustration/Mytholodex';
+import Fanart from './components/Portfolio/Illustration/Fanart';
 
 import CloudCity from './components/Portfolio/Illustration/Conceptart/CloudCity';
 import Drenay from './components/Portfolio/Illustration/Conceptart/Drenay';
 import PreyMask from './components/Portfolio/Illustration/Conceptart/PreyMask';
 import ConceptHybrides from './components/Portfolio/Illustration/Conceptart/ConceptHybrides';
 import ConceptAnubis from './components/Portfolio/Illustration/Conceptart/ConceptAnubis';
+
+import Digimon from './components/Portfolio/Illustration/Fanart/Digimon';
+import Pokemon from './components/Portfolio/Illustration/Fanart/Pokemon';
+import HarryPotter from './components/Portfolio/Illustration/Fanart/HarryPotter';
 
 import './assets/css/styles.css';
 
@@ -59,9 +64,6 @@ export default function App() {
           <Route exact path="/illustration/rpg">
             <Rpg />
           </Route>
-          <Route exact path="/illustration/conceptart">
-            <ConceptArt />
-          </Route>
           <Route exact path="/illustration/mytholodex">
             <Mytholodex />
           </Route>
@@ -69,6 +71,22 @@ export default function App() {
             <PrideArmors />
           </Route>
 
+          <Route exact path="/illustration/fanart">
+            <Fanart />
+          </Route>
+          <Route exact path="/illustration/fanart/digimon">
+            <Digimon />
+          </Route>
+          <Route exact path="/illustration/fanart/pokemon">
+            <Pokemon />
+          </Route>
+          <Route exact path="/illustration/fanart/harrypotter">
+            <HarryPotter />
+          </Route>
+
+          <Route exact path="/illustration/conceptart">
+            <ConceptArt />
+          </Route>
           <Route exact path="/illustration/conceptart/cloudcity">
             <CloudCity />
           </Route>

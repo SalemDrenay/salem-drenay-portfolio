@@ -40,7 +40,21 @@
     background-color: hsl(289, 7%, 45%);
 }
 
-/* ARRIERE-PLAN DES CARTES DE REDIRECTION */
+/* ARRIERE-PLAN DES CARTES "FANART" */
+
+.filter-digimon {
+    background-image: url('../../../images/Portfolio/illu/fanart/Digimon/badge_agumon.jpg');
+}
+
+.filter-pokemon {
+    background-image: url('../../../images/Portfolio/illu/fanart/Pokemon/badges_pikachu.jpg');
+}
+
+.filter-poudlard {
+    background-image: url('../../../images/Portfolio/illu/fanart/Poudlard/house_serpentard.jpg');
+}
+
+/* ARRIERE-PLAN DES CARTES "CONCEPT ART" */
 
 .filter-conceptanubis {
     background-image: url('../../../images/Portfolio/illu/conceptart/anubis/chara5_poses.jpg');

@@ -19,9 +19,9 @@ function Illustration() {
                     <Link to={`/illustration/vector`} className="filter-card filter-vectoriel">
                         <h3>Vectoriel</h3>
                     </Link>
-                    <div className="filter-card filter-fanart">
+                    <Link to={`/illustration/fanart`} className="filter-card filter-fanart">
                         <h3>Fanart</h3>
-                    </div>
+                    </Link>
                     <Link to={`/illustration/rpg`} className="filter-card filter-jdr">
                         <h3>Jeu de rôle</h3>
                     </Link>
