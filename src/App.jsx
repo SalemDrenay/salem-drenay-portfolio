@@ -33,6 +33,11 @@ import ConceptAnubis from './components/Portfolio/Illustration/Conceptart/Concep
 import Digimon from './components/Portfolio/Illustration/Fanart/Digimon';
 import Pokemon from './components/Portfolio/Illustration/Fanart/Pokemon';
 import HarryPotter from './components/Portfolio/Illustration/Fanart/HarryPotter';
+import HollowKnight from './components/Portfolio/Illustration/Fanart/HollowKnight';
+import Ori from './components/Portfolio/Illustration/Fanart/Ori';
+import Cartoons from './components/Portfolio/Illustration/Fanart/Cartoons';
+import LiS from './components/Portfolio/Illustration/Fanart/LiS';
+import NitW from './components/Portfolio/Illustration/Fanart/NitW';
 
 import './assets/css/styles.css';
 
@@ -82,6 +87,21 @@ export default function App() {
           </Route>
           <Route exact path="/illustration/fanart/harrypotter">
             <HarryPotter />
+          </Route>
+          <Route exact path="/illustration/fanart/hollowknight">
+            <HollowKnight />
+          </Route>
+          <Route exact path="/illustration/fanart/ori">
+            <Ori />
+          </Route>
+          <Route exact path="/illustration/fanart/cartoons">
+            <Cartoons />
+          </Route>
+          <Route exact path="/illustration/fanart/lifeisstrange">
+            <LiS />
+          </Route>
+          <Route exact path="/illustration/fanart/nightinthewoods">
+            <NitW />
           </Route>
 
           <Route exact path="/illustration/conceptart">

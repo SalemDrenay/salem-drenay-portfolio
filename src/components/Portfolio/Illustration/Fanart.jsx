@@ -37,19 +37,19 @@ function Fanart() {
             <Link to={`/illustration/fanart/harrypotter`} className="linkto-card filter-poudlard">
                 <h3>Harry Potter</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-hollowknight">
+            <Link to={`/illustration/fanart/hollowknight`} className="linkto-card filter-hollowknight">
                 <h3>Hollow Knight</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-ori">
+            <Link to={`/illustration/fanart/ori`} className="linkto-card filter-ori">
                 <h3>Ori</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-cartoons">
+            <Link to={`/illustration/fanart/cartoons`} className="linkto-card filter-cartoons">
                 <h3>Cartoons &amp; mangas</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-LiS">
+            <Link to={`/illustration/fanart/lifeisstrange`} className="linkto-card filter-LiS">
                 <h3>Life is strange</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-NitW">
+            <Link to={`/illustration/fanart/nightinthewoods`} className="linkto-card filter-NitW">
                 <h3>Night in the woods</h3>
             </Link>
             <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-shovelknight">

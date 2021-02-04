@@ -42,8 +42,28 @@
 
 /* ARRIERE-PLAN DES CARTES "FANART" */
 
+.filter-cartoons {
+    background-image: url('../../../images/Portfolio/illu/fanart/cartoons-mangas/shera_shera.jpg');
+}
+
 .filter-digimon {
     background-image: url('../../../images/Portfolio/illu/fanart/Digimon/badge_agumon.jpg');
+}
+
+.filter-hollowknight {
+    background-image: url('../../../images/Portfolio/illu/fanart/HollowKnight/poster.jpg');
+}
+
+.filter-LiS {
+    background-image: url('../../../images/Portfolio/illu/fanart/LifeIsStrange/badge_lis1.jpg');
+}
+
+.filter-NitW {
+    background-image: url('../../../images/Portfolio/illu/fanart/NightInTheWoods/sticker_gang.jpg');
+}
+
+.filter-ori {
+    background-image: url('../../../images/Portfolio/illu/fanart/Ori/ori.jpg');
 }
 
 .filter-pokemon {
