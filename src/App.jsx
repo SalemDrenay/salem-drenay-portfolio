@@ -38,6 +38,8 @@ import Ori from './components/Portfolio/Illustration/Fanart/Ori';
 import Cartoons from './components/Portfolio/Illustration/Fanart/Cartoons';
 import LiS from './components/Portfolio/Illustration/Fanart/LiS';
 import NitW from './components/Portfolio/Illustration/Fanart/NitW';
+import ShovelKnight from './components/Portfolio/Illustration/Fanart/ShovelKnight';
+import Wonderboy from './components/Portfolio/Illustration/Fanart/Wonderboy';
 
 import './assets/css/styles.css';
 
@@ -103,6 +105,12 @@ export default function App() {
           <Route exact path="/illustration/fanart/nightinthewoods">
             <NitW />
           </Route>
+          <Route exact path="/illustration/fanart/shovelknight">
+            <ShovelKnight />
+          </Route>
+          <Route exact path="/illustration/fanart/wonderboy">
+            <Wonderboy />
+          </Route>
 
           <Route exact path="/illustration/conceptart">
             <ConceptArt />
@@ -123,11 +131,11 @@ export default function App() {
             <ConceptAnubis />
           </Route>
           
-          <Route exact path="/webdesign">
-            <Webdesign />
-          </Route>
           <Route exact path="/publications">
             <Publications />
+          </Route>
+          <Route exact path="/webdesign">
+            <Webdesign />
           </Route>
           <Route exact path="/shop">
             <Shop />

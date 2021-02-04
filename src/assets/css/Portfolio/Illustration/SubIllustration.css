@@ -74,6 +74,14 @@
     background-image: url('../../../images/Portfolio/illu/fanart/Poudlard/house_serpentard.jpg');
 }
 
+.filter-shovelknight {
+    background-image: url('../../../images/Portfolio/illu/fanart/ShovelKnight/badge_shovel.jpg');
+}
+
+.filter-wonderboy {
+    background-image: url('../../../images/Portfolio/illu/fanart/Wonderboy/badges_wb3.jpg');
+}
+
 /* ARRIERE-PLAN DES CARTES "CONCEPT ART" */
 
 .filter-conceptanubis {

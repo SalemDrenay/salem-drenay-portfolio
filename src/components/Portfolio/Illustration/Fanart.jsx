@@ -52,10 +52,10 @@ function Fanart() {
             <Link to={`/illustration/fanart/nightinthewoods`} className="linkto-card filter-NitW">
                 <h3>Night in the woods</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-shovelknight">
+            <Link to={`/illustration/fanart/shovelknight`} className="linkto-card filter-shovelknight">
                 <h3>Shovel Knight</h3>
             </Link>
-            <Link to={`/illustration/fanart/pokemon`} className="linkto-card filter-wondderboy">
+            <Link to={`/illustration/fanart/wonderboy`} className="linkto-card filter-wonderboy">
                 <h3>Wonderboy and the dragon's trap</h3>
             </Link>
           </div>

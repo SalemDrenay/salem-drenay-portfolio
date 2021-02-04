@@ -42,6 +42,10 @@
     background-image: url('../../images/Portfolio/illu/conceptart/cloudcity/duo.jpg');
 }
 
+.filter-fanart {
+    background-image: url('../../images/Portfolio/illu/fanart/okami.jpg');
+}
+
 .filter-jdr {
     background-image: url('../../images/Portfolio/illu/jdr/OccultCityForce/uther.jpg');
 }
