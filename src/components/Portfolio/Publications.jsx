@@ -19,7 +19,7 @@ function Publications() {
                     <Link to={`/publications/vector`} className="filter-card filter-armello">
                         <h3>La couronne d'Armello</h3>
                     </Link>
-                    <Link to={`/publications/rpg`} className="filter-card filter-spyro">
+                    <Link to={`/publications/thanksforreleasingme`} className="filter-card filter-spyro">
                         <h3>Thanks for releasing me</h3>
                     </Link>
                     <Link to={`/publications/fanart`} className="filter-card filter-fireheart">

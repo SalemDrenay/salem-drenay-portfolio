@@ -5,7 +5,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import Navbar from '../../reusables/Navbar';
 import Explicit from "../../reusables/Explicit";
 
-import { photos } from '../../galleries/Publications/gallery-streetsSheets';
+import { photos } from '../../galleries/Publications/gallery-spyro';
 import Cover from '../../../assets/images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg'
 import '../../../assets/css/styles.css';
 
@@ -34,20 +34,17 @@ function Spyro() {
         <div className="publisolo-container publisolo-head">
           <h2>Thanks for releasing me</h2>
           <div className="book-presentation">
-            <img src={Cover} alt="couverture du tome 1 de Of Streets &amp; Sheets" className="book-cover"/>
+            <img src={Cover} alt="couverture montrant un dragon de cristal" className="book-cover"/>
             <div className="book-infos">
-              <p className="title-widescreen">Of Streets &amp; Sheets</p>
+              <p className="title-widescreen">Thanks for releasing me</p>
               <div className="book-details">
-                <p>Scénario, dessin et couleur&nbsp;: Salem Drenay<br/>
-                40 pages</p>
+                <p>Dessin et couleur&nbsp;: Salem Drenay<br/>
+                88 pages</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
-                <p>Il est parfois difficile de joindre les deux bouts. C’est le cas de Jeremiah, un père qui ferait n’importe quoi pour ses deux petites filles.</p>
-                <p>La solution qu’il a trouvée ? La prostitution.</p>
-                <p>Malgré cela, il se retrouve acculé le jour où il doit régler des frais d’hospitalisation imprévus. Le coût est trop élevé, impossible d’y faire face. Sa seule issue réside dans le marché que lui propose l’un des médecins.</p>
-                <p>Aux abois, Jeremiah accepte.<br/>
-                Mais il s’avère bien vite qu’il a passé un pacte avec le diable.</p>
+                <p>TEXTE TEMPORAIRE<br/>
+                Fox Mask Man - Memories With The Yokai is a 2015 Inktober project. It contains a set of 31 print illustrations in 17.5x25, giving a rare and intimate glimpse of the titular character and his personal relationships with the monsters of Japanese folklore.</p>
               </div>
             </div>
           </div>
