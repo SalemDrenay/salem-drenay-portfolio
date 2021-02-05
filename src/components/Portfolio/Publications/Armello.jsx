@@ -3,13 +3,12 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Navbar from '../../reusables/Navbar';
-import Explicit from "../../reusables/Explicit";
 
-import { photos } from '../../galleries/Publications/gallery-streetsSheets';
-import Cover from '../../../assets/images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg'
+import { photos } from '../../galleries/Publications/gallery-armello';
+import Cover from '../../../assets/images/Portfolio/publications/Armello/01_couv.png'
 import '../../../assets/css/styles.css';
 
-function StreetsSheets() {
+function Armello() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -27,27 +26,23 @@ function StreetsSheets() {
     <div>
       <Navbar />
       <div className="publisolo">
-        <Explicit />
-        <div className="scrolldown-stop" id="past-warning">
-          <p>&nbsp;</p>
-        </div>
         <div className="publisolo-container publisolo-head">
-          <h2>Of Streets &amp; Sheets</h2>
+          <h2>La couronne d'Armello</h2>
           <div className="book-presentation">
-            <img src={Cover} alt="couverture montrant un vieux chien furry assis sur un capot" className="book-cover"/>
+            <img src={Cover} alt="couverture montrant un groupe d'animaux qui attaque un lion" className="book-cover"/>
             <div className="book-infos">
-              <p className="title-widescreen">Of Streets &amp; Sheets</p>
+              <p className="title-widescreen">La couronne d'Armello</p>
               <div className="book-details">
-                <p>Scénario, dessin et couleur&nbsp;: Salem Drenay<br/>
-                40 pages</p>
+                <p>Scénario, texte et dessin&nbsp;: Salem Drenay<br/>
+                42 pages<br/>
+                Armello (jeu et personnages) &copy; League of Geeks</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
-                <p>Il est parfois difficile de joindre les deux bouts. C’est le cas de Jeremiah, un père qui ferait n’importe quoi pour ses deux petites filles.</p>
-                <p>La solution qu’il a trouvée ? La prostitution.</p>
-                <p>Malgré cela, il se retrouve acculé le jour où il doit régler des frais d’hospitalisation imprévus. Le coût est trop élevé, impossible d’y faire face. Sa seule issue réside dans le marché que lui propose l’un des médecins.</p>
-                <p>Aux abois, Jeremiah accepte.<br/>
-                Mais il s’avère bien vite qu’il a passé un pacte avec le diable.</p>
+                <p>TEXTE TEMPORAIRE<br />
+                Anubis, autrefois passeur d'âmes de tout un peuple et dieu égyptien de l'embaumement, opère aujourd'hui en tant que médium. Il partage son quotidien (et son lit) avec Stefano, vampire pluricentenaire et excellent cuisinier. Tous deux n'aspirent qu'à mener une existence tranquille.</p>
+                <p>Le souci, c'est que quand on est deux immortels, on attire deux fois plus d'ennuis. Ensemble, ils affrontent toutes les menaces, qu'elles soient humaines, surnaturelles... voire divines, mais là c'est tout de même un peu abusé !</p>
+                <p>Alors quand les morts se mettent à revenir à la vie, ils savent qu'ils ont tout intérêt à réagir vite avant que la ville ne se transforme en zombie party géante. Question : Quel sera le prix à payer ?</p>
               </div>
             </div>
           </div>
@@ -74,4 +69,4 @@ function StreetsSheets() {
   );
 }
 
-export default StreetsSheets;
+export default Armello;

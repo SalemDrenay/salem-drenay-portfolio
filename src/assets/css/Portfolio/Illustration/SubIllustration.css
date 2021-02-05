@@ -34,10 +34,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .linkto-card:hover {
     background-color: hsl(289, 7%, 45%);
+    transition: 0.5s;
 }
 
 /* ARRIERE-PLAN DES CARTES "FANART" */

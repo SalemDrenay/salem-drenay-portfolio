@@ -1,25 +1,17 @@
-import Couv from '../../assets/images/Portfolio/publications/Armello/01_couv.png';
-import EnTete from '../../assets/images/Portfolio/publications/Armello/11_entete.png';
-import Roi from '../../assets/images/Portfolio/publications/Armello/12_roi.png';
-import Reunion from '../../assets/images/Portfolio/publications/Armello/13_reu.jpg';
-import Fleau from '../../assets/images/Portfolio/publications/Armello/21_fleau.jpg';
-import Scarlet from '../../assets/images/Portfolio/publications/Armello/31_scarlet.png';
-import Sylas from '../../assets/images/Portfolio/publications/Armello/32_sylas.png';
-import Horace from '../../assets/images/Portfolio/publications/Armello/33_horace.png';
-import Twiss from '../../assets/images/Portfolio/publications/Armello/34_twiss.png';
-import Declin from '../../assets/images/Portfolio/publications/Armello/41_declin.png';
-import Ronces from '../../assets/images/Portfolio/publications/Armello/51_ronces.png';
-import Duel from '../../assets/images/Portfolio/publications/Armello/52_duel.png';
-import Statue from '../../assets/images/Portfolio/publications/Armello/53_statue.png';
+import EnTete from '../../../assets/images/Portfolio/publications/Armello/11_entete.png';
+import Roi from '../../../assets/images/Portfolio/publications/Armello/12_roi.png';
+import Reunion from '../../../assets/images/Portfolio/publications/Armello/13_reu.jpg';
+import Fleau from '../../../assets/images/Portfolio/publications/Armello/21_fleau.jpg';
+import Scarlet from '../../../assets/images/Portfolio/publications/Armello/31_scarlet.png';
+import Sylas from '../../../assets/images/Portfolio/publications/Armello/32_sylas.png';
+import Horace from '../../../assets/images/Portfolio/publications/Armello/33_horace.png';
+import Twiss from '../../../assets/images/Portfolio/publications/Armello/34_twiss.png';
+import Declin from '../../../assets/images/Portfolio/publications/Armello/41_declin.png';
+import Ronces from '../../../assets/images/Portfolio/publications/Armello/51_ronces.png';
+import Duel from '../../../assets/images/Portfolio/publications/Armello/52_duel.png';
+import Statue from '../../../assets/images/Portfolio/publications/Armello/53_statue.png';
 
 export const photos = [
-    {
-      src: Couv,
-      width: 2,
-      height: 3,
-      title: "crossover",
-      alt: "un groupe d'animaux fait face à un monarque lion féroce"
-    },
     {
       src: EnTete,
       width: 4,

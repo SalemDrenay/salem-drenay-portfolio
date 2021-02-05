@@ -28,7 +28,7 @@ function Comics() {
         <div className="subillu-container">
           <h2>BD</h2>
           <div className="illu-linkto-cards">
-            <Link to={`/publications/bd`} className="linkto-card filter-immortalsTrouble">
+            <Link to={`/publications/immortelsaproblemes`} className="linkto-card filter-immortalsTrouble">
                 <h3>Immortels à Problèmes</h3>
             </Link>
             <Link to={`/publications/ofstreetsandsheets`} className="linkto-card filter-streetsSheets">

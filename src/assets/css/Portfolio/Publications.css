@@ -26,13 +26,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .filter-card:hover {
     background-color: hsl(289, 7%, 45%);
+    transition: 0.5s;
 }
 
 /* FILTER CARDS */
+
+.filter-armello {
+    background-image: url('../../images/Portfolio/publications/Armello/01_couv.png');
+}
+
+.filter-fireheart {
+    background-image: url('../../images/Portfolio/publications/Fireheart/couv_lcef.jpg');
+}
+
+.filter-immortalsTrouble {
+    background-image: url('../../images/Portfolio/publications/Immortels/p0_couv.jpg');
+}
 
 .filter-streetsSheets {
     background-image: url('../../images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg');

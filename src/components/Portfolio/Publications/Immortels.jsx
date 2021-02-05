@@ -29,7 +29,7 @@ function Immortels() {
         <div className="publisolo-container publisolo-head">
           <h2>Immortels à Problèmes</h2>
           <div className="book-presentation">
-            <img src={Cover} alt="couverture montrant un dragon de cristal" className="book-cover"/>
+            <img src={Cover} alt="couverture montrant Anubis et un vampire sur un tas de crânes" className="book-cover"/>
             <div className="book-infos">
               <p className="title-widescreen">Immortels à Problèmes</p>
               <div className="book-details">

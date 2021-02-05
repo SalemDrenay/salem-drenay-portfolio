@@ -44,10 +44,12 @@
     background-size: cover;
     background-blend-mode: multiply;
     background-color: var(--second-dark);
+    transition: 0.5s;
 }
 
 .filter-portfolio-box:hover {
     background-color: hsl(289, 7%, 45%);
+    transition: 0.5s;
 }
 
 @media screen and (min-width: 768px) {

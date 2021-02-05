@@ -3,13 +3,12 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Navbar from '../../reusables/Navbar';
-import Explicit from "../../reusables/Explicit";
 
-import { photos } from '../../galleries/Publications/gallery-streetsSheets';
-import Cover from '../../../assets/images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg'
+import { photos } from '../../galleries/Publications/gallery-fireheart';
+import Cover from '../../../assets/images/Portfolio/publications/Fireheart/couv_lcef.jpg'
 import '../../../assets/css/styles.css';
 
-function StreetsSheets() {
+function FireHeart() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -27,27 +26,21 @@ function StreetsSheets() {
     <div>
       <Navbar />
       <div className="publisolo">
-        <Explicit />
-        <div className="scrolldown-stop" id="past-warning">
-          <p>&nbsp;</p>
-        </div>
         <div className="publisolo-container publisolo-head">
-          <h2>Of Streets &amp; Sheets</h2>
+          <h2>Le Cœur en Feu</h2>
           <div className="book-presentation">
-            <img src={Cover} alt="couverture montrant un vieux chien furry assis sur un capot" className="book-cover"/>
+            <img src={Cover} alt="couverture montrant une adolescente et un monstre cornu qui courent" className="book-cover"/>
             <div className="book-infos">
-              <p className="title-widescreen">Of Streets &amp; Sheets</p>
+              <p className="title-widescreen">Le Cœur en Feu</p>
               <div className="book-details">
-                <p>Scénario, dessin et couleur&nbsp;: Salem Drenay<br/>
-                40 pages</p>
+                <p>Scénario, texte et dessin&nbsp;: Salem Drenay<br/>
+                120 pages</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
-                <p>Il est parfois difficile de joindre les deux bouts. C’est le cas de Jeremiah, un père qui ferait n’importe quoi pour ses deux petites filles.</p>
-                <p>La solution qu’il a trouvée ? La prostitution.</p>
-                <p>Malgré cela, il se retrouve acculé le jour où il doit régler des frais d’hospitalisation imprévus. Le coût est trop élevé, impossible d’y faire face. Sa seule issue réside dans le marché que lui propose l’un des médecins.</p>
-                <p>Aux abois, Jeremiah accepte.<br/>
-                Mais il s’avère bien vite qu’il a passé un pacte avec le diable.</p>
+                <p>Clémentine n'a jamais eu peur. Jamais. Son amitié avec un être que tout le monde qualifierait de monstre, Barovi, n'y est pas pour rien. Du coup, le soir où il vient la voir pour lui annoncer qu'il part à la recherche d'une amie enlevée, elle passe dans son monde pour l'aider. Mais tout ce que lui voit, c'est qu'elle se met en danger. Et impossible de la renvoyer chez elle : le passage est détruit.</p>
+                <p>Tous deux se lancent donc sur la piste de la disparue. Une piste qui les mènera aux quatre coins de cet autre monde, en passant par un New York de momies géantes et Venise transformée en repaire de pirates volants. Mais à mesure que les disputes dues aux divergences d'opinion s'effacent et que l'amitié se renforce, Clémentine et Barovi prennent conscience de l'ampleur de l'ennemi auquel ils se sont attaqués.</p>
+                <p>Et pour ne rien arranger, des sentiments enfouis refont surface. Comme cette colère destructrice qui pourrait bien les pousser à tuer.</p>
               </div>
             </div>
           </div>
@@ -74,4 +67,4 @@ function StreetsSheets() {
   );
 }
 
-export default StreetsSheets;
+export default FireHeart;
