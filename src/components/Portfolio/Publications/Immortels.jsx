@@ -3,13 +3,12 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
 import Navbar from '../../reusables/Navbar';
-import Explicit from "../../reusables/Explicit";
 
-import { photos } from '../../galleries/Publications/gallery-spyro';
-import Cover from '../../../assets/images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg'
+import { photos } from '../../galleries/Publications/gallery-immortels';
+import Cover from '../../../assets/images/Portfolio/publications/Immortels/p0_couv.jpg'
 import '../../../assets/css/styles.css';
 
-function Spyro() {
+function Immortels() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -27,25 +26,21 @@ function Spyro() {
     <div>
       <Navbar />
       <div className="publisolo">
-        <Explicit />
-        <div className="scrolldown-stop" id="past-warning">
-          <p>&nbsp;</p>
-        </div>
         <div className="publisolo-container publisolo-head">
-          <h2>Thanks for releasing me</h2>
+          <h2>Immortels à Problèmes</h2>
           <div className="book-presentation">
             <img src={Cover} alt="couverture montrant un dragon de cristal" className="book-cover"/>
             <div className="book-infos">
-              <p className="title-widescreen">Thanks for releasing me</p>
+              <p className="title-widescreen">Immortels à Problèmes</p>
               <div className="book-details">
-                <p>Dessin et couleur&nbsp;: Salem Drenay<br/>
-                88 pages<br/>
-                Spyro the dragon &amp; characters &copy; Toys for Bob, Activision</p>
+                <p>Scénario, dessin et couleur&nbsp;: Salem Drenay<br/>
+                30 pages</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
-                <p>TEXTE TEMPORAIRE<br/>
-                Fox Mask Man - Memories With The Yokai is a 2015 Inktober project. It contains a set of 31 print illustrations in 17.5x25, giving a rare and intimate glimpse of the titular character and his personal relationships with the monsters of Japanese folklore.</p>
+                <p>Anubis, autrefois passeur d'âmes de tout un peuple et dieu égyptien de l'embaumement, opère aujourd'hui en tant que médium. Il partage son quotidien (et son lit) avec Stefano, vampire pluricentenaire et excellent cuisinier. Tous deux n'aspirent qu'à mener une existence tranquille.</p>
+                <p>Le souci, c'est que quand on est deux immortels, on attire deux fois plus d'ennuis. Ensemble, ils affrontent toutes les menaces, qu'elles soient humaines, surnaturelles... voire divines, mais là c'est tout de même un peu abusé !</p>
+                <p>Alors quand les morts se mettent à revenir à la vie, ils savent qu'ils ont tout intérêt à réagir vite avant que la ville ne se transforme en zombie party géante. Question : Quel sera le prix à payer ?</p>
               </div>
             </div>
           </div>
@@ -72,4 +67,4 @@ function Spyro() {
   );
 }
 
-export default Spyro;
+export default Immortels;

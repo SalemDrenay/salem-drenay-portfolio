@@ -43,6 +43,7 @@ import Wonderboy from './components/Portfolio/Illustration/Fanart/Wonderboy';
 
 import StreetsSheets from "./components/Portfolio/Publications/StreetsSheets";
 import Spyro from "./components/Portfolio/Publications/Spyro";
+import Immortels from "./components/Portfolio/Publications/Immortels";
 
 import './assets/css/styles.css';
 
@@ -142,6 +143,9 @@ export default function App() {
           </Route>
           <Route exact path="/publications/thanksforreleasingme">
             <Spyro />
+          </Route>
+          <Route exact path="/publications/immortelsaproblemes">
+            <Immortels />
           </Route>
 
           <Route exact path="/webdesign">

@@ -13,7 +13,7 @@ function Publications() {
                     <Link to={`/publications/ofstreetsandsheets`} className="filter-card filter-streetsSheets">
                         <h3>Of Streets &amp; Sheets</h3>
                     </Link>
-                    <Link to={`/publications/posters`} className="filter-card filter-immortalsTrouble">
+                    <Link to={`/publications/immortelsaproblemes`} className="filter-card filter-immortalsTrouble">
                         <h3>Immortels à Problèmes</h3>
                     </Link>
                     <Link to={`/publications/vector`} className="filter-card filter-armello">
