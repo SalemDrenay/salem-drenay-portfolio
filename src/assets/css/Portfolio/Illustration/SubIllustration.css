@@ -11,6 +11,11 @@
     min-height: 100vh;
 }
 
+.subillu-gallery img{
+    max-height: 97vh;
+    margin-top: 3%;
+}
+
 .illu-linkto-cards {
     display: flex;
     justify-content: space-around;

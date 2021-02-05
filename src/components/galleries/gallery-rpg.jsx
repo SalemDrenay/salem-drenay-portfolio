@@ -34,8 +34,8 @@ export const photos = [
     },
     {
       src: CharacterNostradamus,
-      width: 2,
-      height: 3,
+      width: 3,
+      height: 5,
       title: "truc",
       alt: "texte"
     },

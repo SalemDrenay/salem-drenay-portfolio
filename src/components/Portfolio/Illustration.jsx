@@ -35,7 +35,7 @@ function Illustration() {
                         <h3>Pride Armors</h3>
                     </Link>
                     <div className="filter-card filter-sketches">
-                        <h3>Croquis</h3>
+                        <h3>Et d'autres<br/>qui viendront<br/>bientôt !</h3>
                     </div>
                 </div>
             </div>

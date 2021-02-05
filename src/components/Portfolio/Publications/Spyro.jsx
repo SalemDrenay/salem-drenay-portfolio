@@ -6,7 +6,7 @@ import Navbar from '../../reusables/Navbar';
 import Explicit from "../../reusables/Explicit";
 
 import { photos } from '../../galleries/Publications/gallery-spyro';
-import Cover from '../../../assets/images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg'
+import Cover from '../../../assets/images/Portfolio/publications/Spyro/0_couv.jpg'
 import '../../../assets/css/styles.css';
 
 function Spyro() {
