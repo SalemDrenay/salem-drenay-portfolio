@@ -1,0 +1,53 @@
+.publications {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--second-dark);
+    padding-top:  calc(var(--spacing) * 7);
+}
+
+.publication-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.filter-card {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    margin: calc(var(--spacing) * 2);
+    background-color:var(--second-dark);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-card:hover {
+    background-color: hsl(289, 7%, 45%);
+}
+
+/* FILTER CARDS */
+
+.filter-streetsSheets {
+    background-image: url('../../images/Portfolio/publications/StreetsSheets/0_cover-eng.jpg');
+}
+
+@media screen and (min-width: 768px) {
+
+    .publications {
+        margin: calc(var(--spacing) * 8) calc(var(--spacing) * 5);
+        padding-top: calc(var(--spacing) * 2);
+        border-radius: 15px;
+    }
+
+    .filter-card {
+        height: 300px;
+        margin: calc(var(--spacing) * 3) var(--spacing);
+    }
+}

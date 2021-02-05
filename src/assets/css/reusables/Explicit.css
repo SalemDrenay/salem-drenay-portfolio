@@ -1,0 +1,53 @@
+.explicit {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.warning {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: calc(var(--spacing) * 2);
+    border-bottom: 1px solid var(--third-dark);
+    margin-bottom: calc(var(--spacing) * 4);
+}
+
+.explicit-message {
+    margin-bottom: var(--spacing);
+    font-size: 1.1rem;
+}
+
+.explicit-message span {
+    font-weight: bold;
+}
+
+.arrow-down {
+    width: 30px;
+    animation-name: verticalSliding;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes verticalSliding {
+    0% {
+      transform: translate(0px, 30px);
+    }
+    50% {
+      transform: translate(0px, 80px);
+    }
+    100% {
+      transform: translate(0px, 30px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .explicit {
+        height: 98vh;
+        margin-bottom: 0;
+    }
+}

@@ -41,6 +41,8 @@ import NitW from './components/Portfolio/Illustration/Fanart/NitW';
 import ShovelKnight from './components/Portfolio/Illustration/Fanart/ShovelKnight';
 import Wonderboy from './components/Portfolio/Illustration/Fanart/Wonderboy';
 
+import StreetsSheets from "./components/Portfolio/Publications/StreetsSheets";
+
 import './assets/css/styles.css';
 
 export default function App() {
@@ -134,6 +136,10 @@ export default function App() {
           <Route exact path="/publications">
             <Publications />
           </Route>
+          <Route exact path="/publications/ofstreetsandsheets">
+            <StreetsSheets />
+          </Route>
+
           <Route exact path="/webdesign">
             <Webdesign />
           </Route>
