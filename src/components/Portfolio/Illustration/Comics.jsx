@@ -36,11 +36,12 @@ function Comics() {
             </Link>
           </div>
 
-          <div className="subillu-gallery">
+          <div>
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
+                <div className="subillu-gallery">
                   <Carousel
                     currentIndex={currentImage}
                     views={photos.map(x => ({
@@ -49,6 +50,7 @@ function Comics() {
                       caption: x.title
                     }))}
                   />
+                </div>
                 </Modal>
               ) : null}
             </ModalGateway>

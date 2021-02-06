@@ -25,10 +25,14 @@ import Mytholodex from './components/Portfolio/Illustration/Mytholodex';
 import Fanart from './components/Portfolio/Illustration/Fanart';
 
 import CloudCity from './components/Portfolio/Illustration/Conceptart/CloudCity';
-import Drenay from './components/Portfolio/Illustration/Conceptart/Drenay';
 import PreyMask from './components/Portfolio/Illustration/Conceptart/PreyMask';
 import ConceptHybrides from './components/Portfolio/Illustration/Conceptart/ConceptHybrides';
 import ConceptAnubis from './components/Portfolio/Illustration/Conceptart/ConceptAnubis';
+import Drenay from './components/Portfolio/Illustration/Conceptart/Drenay';
+import DrenayArchi from "./components/Portfolio/Illustration/Conceptart/DrenayArchi";
+import DrenayInterface from "./components/Portfolio/Illustration/Conceptart/DrenayInterface";
+import DrenayKoharii from "./components/Portfolio/Illustration/Conceptart/DrenayKoharii";
+import DrenayWorldbuilding from "./components/Portfolio/Illustration/Conceptart/DrenayWorldbuilding";
 
 import Digimon from './components/Portfolio/Illustration/Fanart/Digimon';
 import Pokemon from './components/Portfolio/Illustration/Fanart/Pokemon';
@@ -124,9 +128,6 @@ export default function App() {
           <Route exact path="/illustration/conceptart/cloudcity">
             <CloudCity />
           </Route>
-          <Route exact path="/illustration/conceptart/drenay">
-            <Drenay />
-          </Route>
           <Route exact path="/illustration/conceptart/preymask">
             <PreyMask />
           </Route>
@@ -135,6 +136,21 @@ export default function App() {
           </Route>
           <Route exact path="/illustration/conceptart/anubis">
             <ConceptAnubis />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay">
+            <Drenay />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/architecture">
+            <DrenayArchi />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/arena">
+            <DrenayInterface />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/koharii">
+            <DrenayKoharii />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/worldbuilding">
+            <DrenayWorldbuilding />
           </Route>
           
           <Route exact path="/publications">

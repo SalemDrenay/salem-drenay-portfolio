@@ -65,6 +65,7 @@ function Fanart() {
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
+                <div className="subillu-gallery">
                   <Carousel
                     currentIndex={currentImage}
                     views={photos.map(x => ({
@@ -73,6 +74,7 @@ function Fanart() {
                       caption: x.title
                     }))}
                   />
+                </div>
                 </Modal>
               ) : null}
             </ModalGateway>
