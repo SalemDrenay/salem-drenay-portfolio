@@ -39,13 +39,15 @@ function Spyro() {
               <p className="title-widescreen">Thanks for releasing me</p>
               <div className="book-details">
                 <p>Dessin et couleur&nbsp;: Salem Drenay<br/>
-                88 pages<br/>
+                88 pages (fanzine)<br/>
                 Spyro the dragon &amp; characters &copy; Toys for Bob, Activision</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
-                <p>TEXTE TEMPORAIRE<br/>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione eligendi saepe quas dolore maxime id quis. Blanditiis error assumenda temporibus, saepe ad est beatae, minima repellendus earum laboriosam quam!</p>
+                <p>75 dragons<br/>
+                5 mondes<br/>
+                1 règle : la n°34</p>
+                <p>Recueil d'illustrations met en scène les dragons adultes du jeu Spyro Reignited Trilogy. Chacun d'entre eux y est représenté, ainsi que certains boss et Spyro lui-même.</p>
               </div>
             </div>
           </div>

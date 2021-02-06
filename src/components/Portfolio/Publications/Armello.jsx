@@ -34,13 +34,14 @@ function Armello() {
               <p className="title-widescreen">La couronne d'Armello</p>
               <div className="book-details">
                 <p>Scénario, texte et dessin&nbsp;: Salem Drenay<br/>
-                42 pages<br/>
+                42 pages (fanzine)<br/>
                 Armello (jeu et personnages) &copy; League of Geeks</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
-                <p>TEXTE TEMPORAIRE<br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus soluta nostrum aspernatur voluptate repellat distinctio a similique dolores expedita, ad accusantium ab velit? Dolor quo veritatis doloremque expedita autem!</p>
+                <p>Le Déclin se répand dans le royaume. Il a déjà corrompu le roi. Armello est en train de sombrer.</p>
+                <p>Le clan des bandits, mené par la renarde Scarlet, décide de profiter des querelles entre les grandes puissances pour s'emparer de la couronne. Chacun sait ce qu'il a à faire. Il n'y a plus qu'à avancer ses pièces.</p>
+                <p>Mais le Déclin est une force retorse et tous ne vivront pas pour voir l'issue de la bataille.</p>
               </div>
             </div>
           </div>
