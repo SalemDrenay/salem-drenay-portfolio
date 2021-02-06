@@ -26,23 +26,23 @@ function PreyMask() {
       <div className="subillu">
         <div className="subillu-container">
             <h2>Prey's mask</h2>
-            <div className="subillu-gallery">
                 <Gallery photos={photos} onClick={openLightbox} />
                 <ModalGateway>
                 {viewerIsOpen ? (
                     <Modal onClose={closeLightbox}>
-                    <Carousel
-                        currentIndex={currentImage}
-                        views={photos.map(x => ({
-                        ...x,
-                        srcset: x.srcSet,
-                        caption: x.title
-                        }))}
-                    />
+                    <div className="subillu-gallery">
+                      <Carousel
+                          currentIndex={currentImage}
+                          views={photos.map(x => ({
+                          ...x,
+                          srcset: x.srcSet,
+                          caption: x.title
+                          }))}
+                      />
+                    </div>
                     </Modal>
                 ) : null}
                 </ModalGateway>
-            </div>
         </div>
       </div>
     </div>

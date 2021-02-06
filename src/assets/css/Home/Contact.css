@@ -37,11 +37,13 @@
     background-size: cover;
     background-blend-mode: multiply;
     background-color: var(--third-dark);
+    transition: 0.5s;
 }
 
 .cv-download:hover {
     background-color: var(--light);
     color: rgba(255, 255, 255, 0);
+    transition: 0.5s;
 }
 
 @media screen and (min-width: 768px) {

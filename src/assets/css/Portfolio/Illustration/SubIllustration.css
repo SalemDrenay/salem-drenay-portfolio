@@ -11,6 +11,11 @@
     min-height: 100vh;
 }
 
+.subillu-gallery img{
+    max-height: 94vh;
+    margin-top: 1%;
+}
+
 .illu-linkto-cards {
     display: flex;
     justify-content: space-around;
@@ -34,10 +39,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .linkto-card:hover {
     background-color: hsl(289, 7%, 45%);
+    transition: 0.5s;
+}
+
+.subillu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subillu-header {
+    text-align: justify;
+}
+
+.subillu-header img {
+    width: 200px;
+    margin-bottom: var(--spacing);
 }
 
 /* ARRIERE-PLAN DES CARTES "FANART" */
@@ -97,7 +119,23 @@
 }
 
 .filter-drenay {
-    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/final_miniature.jpg');
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/banner.jpg');
+}
+
+.filter-drenay-archi {
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/archi/maar.jpg');
+}
+
+.filter-drenay-arena {
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/interface/main_couloir.jpg');
+}
+
+.filter-drenay-koharii {
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/koharii/login-final.jpg');
+}
+
+.filter-drenay-worldbuilding {
+    background-image: url('../../../images/Portfolio/illu/conceptart/drenay/worldbuilding/lakeyras_armures.jpg');
 }
 
 .filter-preymask {
@@ -117,8 +155,26 @@
         margin: calc(var(--spacing)*5) 0;
     }
 
+    .subillu-gallery {
+        padding: 0 var(--spacing);
+    }
+
     .linkto-card {
         height: 150px;
         margin: calc(var(--spacing) * 3) var(--spacing);
+    }
+
+    .subillu-header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .subillu-header img {
+        width: 150px;
+        margin-bottom: 0;
+    }
+
+    .subillu-header p {
+        width: 70%;
     }
 }

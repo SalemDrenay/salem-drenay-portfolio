@@ -16,99 +16,99 @@ import Sphinx from '../../assets/images/Portfolio/illu/mytholodex/sphinx.jpg';
 export const photos = [
     {
       src: Echidna,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Chimera,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Charybde,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Scylla,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Argus,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Lycaon,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Hydre,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Manticore,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Meduse,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Erinyes,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Cerbere,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Hecatonchire,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Spartoi,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     },
     {
       src: Sphinx,
-      width: 3,
-      height: 2,
+      width: 7,
+      height: 5,
       title: "truc",
       alt: "texte"
     }

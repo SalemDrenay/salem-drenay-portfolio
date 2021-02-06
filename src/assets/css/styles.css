@@ -1,6 +1,7 @@
 @import './global.css';
 @import './reusables/Navbar.css';
 @import './reusables/Social.css';
+@import './reusables/Explicit.css';
 
 @import './Home/Home.css';
 @import './Home/About.css';
@@ -10,5 +11,8 @@
 
 @import './Portfolio/Illustration.css';
 @import './Portfolio/Illustration/SubIllustration.css';
+
+@import './Portfolio/Publications.css';
+@import './Portfolio/Publications/PublicationSolo.css';
 
 @import './Portfolio/Webdesign.css';

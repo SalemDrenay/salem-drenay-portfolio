@@ -26,11 +26,11 @@ function CloudCity() {
       <div className="subillu">
         <div className="subillu-container">
             <h2>Cloud City</h2>
-            <div className="subillu-gallery">
-                <Gallery photos={photos} onClick={openLightbox} />
-                <ModalGateway>
-                {viewerIsOpen ? (
-                    <Modal onClose={closeLightbox}>
+              <Gallery photos={photos} onClick={openLightbox} />
+              <ModalGateway>
+              {viewerIsOpen ? (
+                  <Modal onClose={closeLightbox}>
+                  <div className="subillu-gallery">
                     <Carousel
                         currentIndex={currentImage}
                         views={photos.map(x => ({
@@ -39,10 +39,10 @@ function CloudCity() {
                         caption: x.title
                         }))}
                     />
-                    </Modal>
-                ) : null}
-                </ModalGateway>
-            </div>
+                  </div>
+                  </Modal>
+              ) : null}
+              </ModalGateway>
         </div>
       </div>
     </div>

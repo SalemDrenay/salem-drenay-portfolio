@@ -26,16 +26,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .filter-card:hover {
     background-color: hsl(289, 7%, 45%);
+    transition: 0.5s;
 }
 
 /* FILTER CARDS */
 
 .filter-armors {
     background-image: url('../../images/Portfolio/illu/armures/lesbian.jpg');
+}
+
+.filter-bd {
+    background-image: url('../../images/Portfolio/publications/StreetsSheets/21_dadjoke.jpg');
 }
 
 .filter-conceptart {

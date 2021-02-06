@@ -26,11 +26,11 @@ function Wonderboy() {
       <div className="subillu">
         <div className="subillu-container">
           <h2>Wonderboy and the dragon's trap</h2>
-          <div className="subillu-gallery">
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
+                <div className="subillu-gallery">
                   <Carousel
                     currentIndex={currentImage}
                     views={photos.map(x => ({
@@ -39,10 +39,10 @@ function Wonderboy() {
                       caption: x.title
                     }))}
                   />
+                  </div>
                 </Modal>
               ) : null}
             </ModalGateway>
-          </div>
         </div>
       </div>
     </div>

@@ -4,6 +4,8 @@ import Immortels from '../../assets/images/Portfolio/illu/posters/immortels.jpg'
 import Streets from '../../assets/images/Portfolio/illu/posters/ofstreetsandsheets.jpg';
 import Reincarnate from '../../assets/images/Portfolio/illu/jdr/MoiRéincarneMonstre/PosterArc2_Ina.jpg';
 import OCF from '../../assets/images/Portfolio/illu/jdr/OccultCityForce/OcfPoster.jpg';
+import Control from '../../assets/images/Portfolio/illu/fanart/control.jpg';
+import HollowKnight from '../../assets/images/Portfolio/illu/fanart/HollowKnight/poster.jpg';
 
 export const photos = [
     {
@@ -19,6 +21,20 @@ export const photos = [
       height: 4,
       title: "test de couvertures jointes pour les deux tomes d'Of Streets & Sheets",
       alt: "un chien dans des rues éclairées au néon"
+    },
+    {
+      src: HollowKnight,
+      width: 5,
+      height: 7,
+      title: "fanart du jeu vidéo Hollow Knight (&copy; Team Cherry)",
+      alt: "créatures insectoïdes opposées comme par un sol en miroir"
+    },
+    {
+      src: Control,
+      width: 5,
+      height: 7,
+      title: "fanart du jeu vidéo Control (&copy; Remedy)",
+      alt: "une femme entourée d'un halo vole vers une pyramide inversée encadrée par une force rouge"
     },
     {
       src: Anubis,

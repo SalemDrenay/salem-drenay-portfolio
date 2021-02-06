@@ -25,10 +25,14 @@ import Mytholodex from './components/Portfolio/Illustration/Mytholodex';
 import Fanart from './components/Portfolio/Illustration/Fanart';
 
 import CloudCity from './components/Portfolio/Illustration/Conceptart/CloudCity';
-import Drenay from './components/Portfolio/Illustration/Conceptart/Drenay';
 import PreyMask from './components/Portfolio/Illustration/Conceptart/PreyMask';
 import ConceptHybrides from './components/Portfolio/Illustration/Conceptart/ConceptHybrides';
 import ConceptAnubis from './components/Portfolio/Illustration/Conceptart/ConceptAnubis';
+import Drenay from './components/Portfolio/Illustration/Conceptart/Drenay';
+import DrenayArchi from "./components/Portfolio/Illustration/Conceptart/DrenayArchi";
+import DrenayInterface from "./components/Portfolio/Illustration/Conceptart/DrenayInterface";
+import DrenayKoharii from "./components/Portfolio/Illustration/Conceptart/DrenayKoharii";
+import DrenayWorldbuilding from "./components/Portfolio/Illustration/Conceptart/DrenayWorldbuilding";
 
 import Digimon from './components/Portfolio/Illustration/Fanart/Digimon';
 import Pokemon from './components/Portfolio/Illustration/Fanart/Pokemon';
@@ -40,6 +44,12 @@ import LiS from './components/Portfolio/Illustration/Fanart/LiS';
 import NitW from './components/Portfolio/Illustration/Fanart/NitW';
 import ShovelKnight from './components/Portfolio/Illustration/Fanart/ShovelKnight';
 import Wonderboy from './components/Portfolio/Illustration/Fanart/Wonderboy';
+
+import StreetsSheets from "./components/Portfolio/Publications/StreetsSheets";
+import Spyro from "./components/Portfolio/Publications/Spyro";
+import Immortels from "./components/Portfolio/Publications/Immortels";
+import Armello from "./components/Portfolio/Publications/Armello";
+import FireHeart from "./components/Portfolio/Publications/FireHeart";
 
 import './assets/css/styles.css';
 
@@ -118,9 +128,6 @@ export default function App() {
           <Route exact path="/illustration/conceptart/cloudcity">
             <CloudCity />
           </Route>
-          <Route exact path="/illustration/conceptart/drenay">
-            <Drenay />
-          </Route>
           <Route exact path="/illustration/conceptart/preymask">
             <PreyMask />
           </Route>
@@ -130,10 +137,41 @@ export default function App() {
           <Route exact path="/illustration/conceptart/anubis">
             <ConceptAnubis />
           </Route>
+          <Route exact path="/illustration/conceptart/drenay">
+            <Drenay />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/architecture">
+            <DrenayArchi />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/arena">
+            <DrenayInterface />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/koharii">
+            <DrenayKoharii />
+          </Route>
+          <Route exact path="/illustration/conceptart/drenay/worldbuilding">
+            <DrenayWorldbuilding />
+          </Route>
           
           <Route exact path="/publications">
             <Publications />
           </Route>
+          <Route exact path="/publications/ofstreetsandsheets">
+            <StreetsSheets />
+          </Route>
+          <Route exact path="/publications/thanksforreleasingme">
+            <Spyro />
+          </Route>
+          <Route exact path="/publications/immortelsaproblemes">
+            <Immortels />
+          </Route>
+          <Route exact path="/publications/lacouronnedarmello">
+            <Armello />
+          </Route>
+          <Route exact path="/publications/lecoeurenfeu">
+            <FireHeart />
+          </Route>
+
           <Route exact path="/webdesign">
             <Webdesign />
           </Route>
