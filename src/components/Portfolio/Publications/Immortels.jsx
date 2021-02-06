@@ -34,7 +34,7 @@ function Immortels() {
               <p className="title-widescreen">Immortels à Problèmes</p>
               <div className="book-details">
                 <p>Scénario, dessin et couleur&nbsp;: Salem Drenay<br/>
-                30 pages</p>
+                30 pages (BD)</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">

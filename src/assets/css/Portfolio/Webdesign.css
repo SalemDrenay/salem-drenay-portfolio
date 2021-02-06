@@ -4,7 +4,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: var(--second-dark);
-    border-radius: 15px;
 }
 
 .webdesign h2 {
@@ -24,7 +23,22 @@
 }
 
 .filter-description {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: calc(var(--spacing) * 2);
+    background-color: hsla(328, 7%, 40%, 0.9);
+    border-radius: 5px;
+}
+
+.filter-description p {
     display: none;
+}
+
+.filter-practeex {
+    background-image: url('../../images/Portfolio/webdesign/practeex.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .filter-puntacana {
@@ -47,6 +61,7 @@
         min-height: 50vh;
         justify-content: center;
         align-items: center;
+        border-radius: 15px;
     }
 
     .webdesign h2 {
@@ -54,11 +69,10 @@
     }
 
     .filter-description {
-        display: flex;
-        flex-direction: column;
         width: 80%;
-        padding: calc(var(--spacing) * 2);
-        background-color: hsla(328, 7%, 40%, 0.9);
-        border-radius: 5px;
+    }
+
+    .filter-description p {
+        display: block;
     }
 }

@@ -39,7 +39,7 @@ function StreetsSheets() {
               <p className="title-widescreen">Of Streets &amp; Sheets</p>
               <div className="book-details">
                 <p>Scénario, dessin et couleur&nbsp;: Salem Drenay<br/>
-                40 pages</p>
+                44 pages (bd)</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">

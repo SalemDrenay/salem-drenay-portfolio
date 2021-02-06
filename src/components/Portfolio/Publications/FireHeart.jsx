@@ -34,7 +34,7 @@ function FireHeart() {
               <p className="title-widescreen">Le Cœur en Feu</p>
               <div className="book-details">
                 <p>Scénario, texte et dessin&nbsp;: Salem Drenay<br/>
-                120 pages</p>
+                120 pages (roman illustré)</p>
               </div>
               <div className="separation"></div>
               <div className="book-resume">
