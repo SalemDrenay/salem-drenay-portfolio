@@ -17,7 +17,7 @@ function Publications() {
                         <h3>Immortels à Problèmes</h3>
                     </Link>
                     <Link to={`/publications/lacouronnedarmello`} className="filter-card filter-armello">
-                        <h3>La couronne d'Armello</h3>
+                        <h3>La couronne d&apos;Armello</h3>
                     </Link>
                     <Link to={`/publications/thanksforreleasingme`} className="filter-card filter-spyro">
                         <h3>Thanks for releasing me</h3>
