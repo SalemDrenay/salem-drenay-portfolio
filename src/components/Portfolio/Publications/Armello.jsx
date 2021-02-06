@@ -40,9 +40,7 @@ function Armello() {
               <div className="separation"></div>
               <div className="book-resume">
                 <p>TEXTE TEMPORAIRE<br />
-                Anubis, autrefois passeur d'âmes de tout un peuple et dieu égyptien de l'embaumement, opère aujourd'hui en tant que médium. Il partage son quotidien (et son lit) avec Stefano, vampire pluricentenaire et excellent cuisinier. Tous deux n'aspirent qu'à mener une existence tranquille.</p>
-                <p>Le souci, c'est que quand on est deux immortels, on attire deux fois plus d'ennuis. Ensemble, ils affrontent toutes les menaces, qu'elles soient humaines, surnaturelles... voire divines, mais là c'est tout de même un peu abusé !</p>
-                <p>Alors quand les morts se mettent à revenir à la vie, ils savent qu'ils ont tout intérêt à réagir vite avant que la ville ne se transforme en zombie party géante. Question : Quel sera le prix à payer ?</p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus soluta nostrum aspernatur voluptate repellat distinctio a similique dolores expedita, ad accusantium ab velit? Dolor quo veritatis doloremque expedita autem!</p>
               </div>
             </div>
           </div>
@@ -52,6 +50,7 @@ function Armello() {
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
+                <div className="subillu-gallery">
                   <Carousel
                     currentIndex={currentImage}
                     views={photos.map(x => ({
@@ -60,6 +59,7 @@ function Armello() {
                       caption: x.title
                     }))}
                   />
+                </div>
                 </Modal>
               ) : null}
             </ModalGateway>

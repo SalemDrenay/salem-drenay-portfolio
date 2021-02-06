@@ -45,7 +45,7 @@ function Spyro() {
               <div className="separation"></div>
               <div className="book-resume">
                 <p>TEXTE TEMPORAIRE<br/>
-                Fox Mask Man - Memories With The Yokai is a 2015 Inktober project. It contains a set of 31 print illustrations in 17.5x25, giving a rare and intimate glimpse of the titular character and his personal relationships with the monsters of Japanese folklore.</p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione eligendi saepe quas dolore maxime id quis. Blanditiis error assumenda temporibus, saepe ad est beatae, minima repellendus earum laboriosam quam!</p>
               </div>
             </div>
           </div>
@@ -55,6 +55,7 @@ function Spyro() {
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
+                <div className="subillu-gallery">
                   <Carousel
                     currentIndex={currentImage}
                     views={photos.map(x => ({
@@ -63,6 +64,7 @@ function Spyro() {
                       caption: x.title
                     }))}
                   />
+                </div>
                 </Modal>
               ) : null}
             </ModalGateway>

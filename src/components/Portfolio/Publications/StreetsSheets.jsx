@@ -57,6 +57,7 @@ function StreetsSheets() {
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
+                <div className="subillu-gallery">
                   <Carousel
                     currentIndex={currentImage}
                     views={photos.map(x => ({
@@ -65,6 +66,7 @@ function StreetsSheets() {
                       caption: x.title
                     }))}
                   />
+                  </div>
                 </Modal>
               ) : null}
             </ModalGateway>
