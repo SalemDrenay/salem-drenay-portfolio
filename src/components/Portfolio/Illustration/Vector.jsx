@@ -28,10 +28,10 @@ function Vector() {
         <div className="subillu-container">
           <h2>Vectoriel</h2>
           <div className="illu-linkto-cards">
-            <Link to={`/illustration/bd`} className="linkto-card filter-armello">
-                <h3>Armello</h3>
+            <Link to={`/publications/lacouronnedarmello`} className="linkto-card filter-armello">
+                <h3>La couronne d&apos;Armello</h3>
             </Link>
-            <Link to={`/illustration/bd`} className="linkto-card filter-fireheart">
+            <Link to={`/publications/lecoeurenfeu`} className="linkto-card filter-fireheart">
                 <h3>Le Cœur en Feu</h3>
             </Link>
           </div>
