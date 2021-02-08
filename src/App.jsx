@@ -5,6 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 
+import ScrollToTop from './components/reusables/ScrollToTop';
+
 import Home from './components/Home/Home';
 import About from './components/Home/About';
 import FilterPortfolio from './components/Portfolio/FilterPortfolio';
@@ -57,6 +59,7 @@ export default function App() {
   return (
     <Router>
       <div>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about">
