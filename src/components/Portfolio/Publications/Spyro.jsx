@@ -47,7 +47,7 @@ function Spyro() {
                 <p>75 dragons<br/>
                 5 mondes<br/>
                 1 règle : la n°34</p>
-                <p>Recueil d'illustrations met en scène les dragons adultes du jeu Spyro Reignited Trilogy. Chacun d'entre eux y est représenté, ainsi que certains boss et Spyro lui-même.</p>
+                <p>Recueil d'illustrations mettant en scène les dragons adultes du jeu Spyro Reignited Trilogy. Chacun d'entre eux y est représenté, ainsi que certains boss et Spyro lui-même.</p>
               </div>
             </div>
           </div>

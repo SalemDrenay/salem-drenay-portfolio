@@ -10,43 +10,43 @@ export const photos = [
       src: Brothers,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "p1 / Petit frère",
+      alt: "Anubis et Horus en Egypte pendant l'Antiquité"
     },
     {
       src: Kiss,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "p5 / Now kiss",
+      alt: "baiser entre Anubis et un vampire"
     },
     {
       src: Improvise,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "p6 / C'est pas un plan, ça",
+      alt: "Anubis explique comment éviter l'invasion de zombies"
     },
     {
       src: Guardians,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "p10 / Problème de taille",
+      alt: "Anubis poursuivi par trois géants"
     },
     {
       src: Kakaka,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "p14 / Gps d'outre-tombe",
+      alt: "un crâne qui indique le chemin à suivre"
     },
     {
       src: Rise,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "p19 / Debout les morts",
+      alt: "un nécromancien ressuscite les morts"
     }
   ];
   
