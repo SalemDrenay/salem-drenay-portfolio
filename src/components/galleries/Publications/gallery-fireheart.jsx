@@ -30,14 +30,14 @@ export const photos = [
       src: Dispute,
       width: 3,
       height: 5,
-      title: "truc",
+      title: "Barovi et Clémentine en désaccord",
       alt: "texte"
     },
     {
       src: Rencontre,
       width: 4,
       height: 3,
-      title: "truc",
+      title: "première rencontre",
       alt: "texte"
     },
     {
