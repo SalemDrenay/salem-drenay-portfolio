@@ -10,42 +10,42 @@ export const photos = [
       src: Agumon,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Agumon (Digimon © Bandai)",
+      alt: "petit dinosaure jaune aux yeux verts"
     },
     {
       src: Veemon,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Veemon (Digimon © Bandai)",
+      alt: "petite créature bleue aux jeux rouges"
     },
     {
       src: Guilmon,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Guilmon (Digimon © Bandai)",
+      alt: "petit dragon rouge et blanc qui mange du pain"
     },
     {
       src: Gaomon,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Gaomon (Digimon © Bandai)",
+      alt: "petit chien bleu avec un bandeau rouge et des gants de boxe"
     },
     {
       src: Shoutmon,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Shoutmon (Digimon © Bandai)",
+      alt: "petite créature rouge et pointue avec un casque audio et un micro"
     },
     {
       src: Frise,
       width: 4,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "le club des cinq (Digimon © Bandai)",
+      alt: "alignement de cinq petites créatures de couleur et morphologie variées"
     }
   ];

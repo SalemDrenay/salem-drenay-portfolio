@@ -8,28 +8,28 @@ export const photos = [
       src: Gryffondor,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Gryffondor (Harry Potter © JK Rowling)",
+      alt: "lion avec un chapeau pointu et une baguette magique enveloppé dans une couverture rouge"
     },
     {
       src: Poufsouffle,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Poufsouffle (Harry Potter © JK Rowling)",
+      alt: "balireau avec un chapeau pointu et une baguette magique enveloppé dans une couverture grise"
     },
     {
       src: Serdaigle,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Serdaigle (Harry Potter © JK Rowling)",
+      alt: "aigle avec un chapeau pointu et une baguette magique enveloppé dans une couverture bleue"
     },
     {
       src: Serpentard,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Serpentard (Harry Potter © JK Rowling)",
+      alt: "serpent avec un chapeau pointu et une baguette magique enveloppé dans une couverture verte"
     }
   ];

@@ -26,14 +26,14 @@ export const photos = [
       src: HollowKnight,
       width: 5,
       height: 7,
-      title: "fanart du jeu vidéo Hollow Knight (&copy; Team Cherry)",
+      title: "fanart du jeu vidéo Hollow Knight (© Team Cherry)",
       alt: "créatures insectoïdes opposées comme par un sol en miroir"
     },
     {
       src: Control,
       width: 5,
       height: 7,
-      title: "fanart du jeu vidéo Control (&copy; Remedy)",
+      title: "fanart du jeu vidéo Control (© Remedy)",
       alt: "une femme entourée d'un halo vole vers une pyramide inversée encadrée par une force rouge"
     },
     {

@@ -8,28 +8,28 @@ export const photos = [
       src: MaxChloe,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Max et Chloe (Life is Strange © Dontnod entertainment)",
+      alt: "deux jeunes filles, une génère une spirale et l'autre tient un pistolet"
     },
     {
       src: ChloeRachel,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Chloe et Rachel (Life is Strange: Before the Storm © Dontnod entertainment)",
+      alt: "deux jeunes filles qui appuient leurs têtes l'une contre l'autre"
     },
     {
       src: Duos,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Duos (Life is Strange © Dontnod entertainment)",
+      alt: "duos de jeunes filles"
     },
     {
       src: Decision,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Cette action aura des conséquences (Life is Strange © Dontnod entertainment)",
+      alt: "photo déchirée de papillon et tornade"
     }
   ];

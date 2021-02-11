@@ -20,112 +20,112 @@ export const photos = [
       src: HellYeahAsh,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Ash, prince des enfers (Hell Yeah! Wrath of the dead rabbit © Arkedo)",
+      alt: "lapin squelette avec arme à feu devant une scie circulaire géante"
     },
     {
       src: HellYeahDuck,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "le canard de Ash (Hell Yeah! Wrath of the dead rabbit © Arkedo)",
+      alt: "canard en caoutchouc avec une casquette en cuir et un collier à pics"
     },
     {
       src: BabaIsYou,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Baba (Baba is you © Hempuli Oy)",
+      alt: "petite créature blanche et drapeau sur fond noir"
     },
     {
       src: Doom,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Doomguy (Doom © id Software)",
+      alt: "homme en combinaison avec une tronçonneuse et un fusil sur un tas de cadavres de démons"
     },
     {
       src: Bowser,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "Bowser et Bowser jr (© Nintendo)",
+      alt: "dragon-tortue à crête rouge qui porte son fils sur ses épaules"
     },
     {
       src: Minecraft,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Enderman (Minecraft © Mojang Studios)",
+      alt: "humanoïde sombre à la tête carrée"
     },
     {
       src: FelixReaper,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Felix (Felix the Reaper © Kong Orange)",
+      alt: "squelette en tenue chemise, gilet et cravate avec casque audio"
     },
     {
       src: Journey,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Traveler (Journey © thatgamecompany)",
+      alt: "silhouette drapée de rouge"
     },
     {
       src: Control,
       width: 5,
       height: 7,
-      title: "truc",
-      alt: "texte"
+      title: "Jesse, the Board and the Hiss (Control © Remedy entertainment)",
+      alt: "une femme entourée d'un halo vole vers une pyramide inversée encadrée par une force rouge"
     },
     {
       src: Meatboy,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Meatboy (Super Meatboy © Team Meat)",
+      alt: "bonhomme cubique rouge avec un pansement, un œil au beurre noir et des dents en moins"
     },
     {
       src: PapersPlease,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Arstotzka (Papers please © Lucas Pope)",
+      alt: "blason constructiviste d'un oiseau rouge sur fond noir"
     },
     {
       src: DeadCellsHomunculus,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Homonculus (Dead cells © Motion Twin)",
+      alt: "humanoïde à tête informe qui tient deux armes blanches et à la longue écharpe rouge"
     },
     {
       src: DeadCellsItem,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Cellule (Dead cells © Motion Twin)",
+      alt: "cellule magique bleue fissurée et coulante"
     },
     {
       src: Okami,
       width: 5,
       height: 7,
-      title: "truc",
-      alt: "texte"
+      title: "Amaterasu (Okami © Capcom)",
+      alt: "loup blanc aux marques rouges, doté d'ailes et d'un disque en feu sur son dos"
     },
     {
       src: Revolution,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "guillotine (We. The Revolution © Polyslash)",
+      alt: "guillotine stylisée rouge"
     },
     {
       src: SeigneurAnneaux,
-      width: 2,
-      height: 3,
-      title: "truc",
-      alt: "texte"
+      width: 3,
+      height: 5,
+      title: "Sauron (Le seigneur des Anneaux © J.R.R. Tolkien)",
+      alt: "masque métallique hérissé de piques avec un œil incandescent"
     }
   ];
