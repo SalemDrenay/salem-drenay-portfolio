@@ -22,106 +22,106 @@ export const photos = [
       src: PosterReincarnate,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "poster pour le jeu 'Moi, quand je me réincarne en monstre' (univers fantasy)",
+      alt: "titre entouré d'éclats qui montrent chacun une créature différente, une fillette est visible en fond"
     },
     {
       src: CharacterAoska,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "référence d'Aoska (jeu : Moi, quand je me réincarne en monstre)",
+      alt: "homme-papillon violet avec un large col et des antennes en fourrure blanche"
     },
     {
       src: CharacterNostradamus,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "référence de Nostradamus, le familier d'Aoska (jeu : Moi, quand je me réincarne en monstre)",
+      alt: "petit cactus bipède"
     },
     {
       src: IntroPrison,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Aoska se réincarne après sa mort et se réveille en cellule",
+      alt: "homme-phalène en cellule, de la lumière passe à travers les barreaux et projette l'ombre de quelqu'un"
     },
     {
       src: Session1,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "scènes du début de 'Moi, quand je me réincarne en monstre'",
+      alt: "interactions entre diverses créatures"
     },
     {
       src: Fighting,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "des frictions dans le groupe",
+      alt: "femme-serpent essaye de calmer une bagarre pendant que l'homme-phalène recule"
     },
     {
       src: Horny,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Aoska l'homme-phalène et Gundar le hobgobelin",
+      alt: "homme-phalène et humanoïde gris devant un arc-en-ciel et encadrés du texte 'horny on main'"
     },
     {
       src: PosterOcf,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "poster pour le jeu 'Occult City Force' (univers cyberpunk et surnaturel)",
+      alt: "plusieurs personnes plus ou moins augmentées et un robot autour de la silhouette d'une ville construite en hauteur, masse avec des yeux en arrière-plan"
     },
     {
       src: CharacterUther,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "référence d'Uther (jeu : Occult City Force)",
+      alt: "robot rose vif et violet avec des lumières bleues, une paire d'antennes et un hoodie à manches transparentes"
     },
     {
       src: PosterOcfHelen,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "parodie du poster d'Occult City Force (le seul personnage féminin du groupe s'appelait Helen)",
+      alt: "plusieurs personnes plus ou moins augmentées et un robot autour de la silhouette d'une ville construite en hauteur, rose vif sur l'ensemble du dessin, le titre se superpose à un cœur"
     },
     {
       src: CharacterArjhan,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "référence d'Arjhan (jeu : 'Donjons & Dragons ; Deepwater'",
+      alt: "homme-dragon vert avec des cornes turquoise et des vêtements bleus"
     },
     {
       src: DiceSlime,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "dé en slime",
+      alt: "dé en gelée bleue qui coule"
     },
     {
       src: DiceRage,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "dé de berserker",
+      alt: "dé qui gènère des éclairs rouges"
     },
     {
       src: DicePlant,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "dé de druide",
+      alt: "dés entourés de plantes grimpantes"
     },
     {
       src: DiceMimic,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "dé mimic",
+      alt: "dé ouvert avec des crocs et une longue langue"
     },
   ];
   

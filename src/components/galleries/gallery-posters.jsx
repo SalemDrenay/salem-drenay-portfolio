@@ -47,7 +47,7 @@ export const photos = [
       src: Hybrides,
       width: 2,
       height: 3,
-      title: "couverture d'un ancien projet",
+      title: "couverture d'un ancien projet de roman",
       alt: "une empreinte de patte animale faite d'empreintes digitales humaines"
     },
     {
@@ -55,14 +55,14 @@ export const photos = [
       width: 2,
       height: 3,
       title: "poster d'un groupe de jeu de rôle typé fantasy",
-      alt: "une empreinte de patte animale faite d'empreintes digitales humaines"
+      alt: "titre entouré d'éclats qui montrent chacun une créature différente, une fillette est visible en fond"
     },
     {
       src: OCF,
       width: 2,
       height: 3,
       title: "poster d'un groupe de jeu de rôle typé cyberpunk et surnaturel",
-      alt: "une empreinte de patte animale faite d'empreintes digitales humaines"
+      alt: "plusieurs personnes plus ou moins augmentées et un robot autour de la silhouette d'une ville construite en hauteur, masse avec des yeux en arrière-plan"
     }
   ];
   
