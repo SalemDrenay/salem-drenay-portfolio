@@ -19,85 +19,85 @@ export const photos = [
       src: ArenaExt,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "l'Arène d'Eyras où ont lieu des combats de golems",
+      alt: "arène au bout d'un promontoir et dotée de constructions élevées"
     },
     {
       src: ArenaPiste,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "vue de la piste de l'Arène",
+      alt: "piste d'un colisée aux gradins élevés et avec un haut bâtiment à l'arrière"
     },
     {
       src: ArenaConcept,
       width: 3,
       height: 4,
-      title: "truc",
-      alt: "texte"
+      title: "concepts de l'Arène",
+      alt: "arène vue de dessus entourées de statues géantes"
     },
     {
       src: ArenaCouloir,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "couloir d'accès à la piste de l'Arène",
+      alt: "haut couloir voûté et percé de portes, celle du fond donne sur une arène"
     },
     {
       src: ArenaLobby,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "galerie de circulation dans l'Arène",
+      alt: "galerie surélevée et ouverte avec une arène en contrebas"
     },
     {
       src: Dedale,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "le Dédale, le quartier marchand d'Eyras",
+      alt: "haut bâtiment avec des extensions en étoile au milieu d'une ville au plan labyrinthique"
     },
     {
       src: Maar,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Maar, la cité forgeronne d'Eyras",
+      alt: "cité qui s'élève sur un promontoire, des flammes s'échappent des principaux bâtiments reliés par des viaducs"
     },
     {
       src: ForgePinces,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "concept d'une forge de Maar",
+      alt: "ballon d'air et soufflet d'où jaillissent des flammes dans une grande pièce aux colonnes de lave"
     },
     {
       src: ForgeFeu,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "concept d'une forge de Maar",
+      alt: "ballon d'air et soufflet d'où jaillissent des flammes dans une grande pièce aux colonnes de lave"
     },
     {
       src: Market,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "étal de marchand",
+      alt: "homme derrière un étal de marchandises et des sacs accrochés à une roue"
     },
     {
       src: Workshop,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "atelier de fabrication de golems sous l'Arène",
+      alt: "salle souterraine avec des cercles magiques, des organes reliés à une machine, des schémas accrochés au mur et des cubes dans un bocal"
     },
     {
       src: ComptoirLegions,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "le comptoir des Légions (qg de guildes)",
+      alt: "grande salle aux voûtes en ogives avec un comptoir et des piédestaux pour des trophées"
     }
   ];
   

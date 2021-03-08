@@ -8,29 +8,29 @@ export const photos = [
       src: Tete,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "morphologie de la tête",
+      alt: "têtes d'homme-chien, finale a une crête et des boucles d'oreille"
     },
     {
       src: Marques,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "marquages corporels",
+      alt: "homme-chien avec un bras squelette et plusieurs tatouages"
     },
     {
       src: Vetements,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "tests de tenues",
+      alt: "homme-chien portant diverses tenues"
     },
     {
       src: Poses,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "mise en situation du design final",
+      alt: "scènes montrant un homme-chien qui tient une batte, qui écoute de la musique, qui marche, qui fait de la magie"
     }
   ];
   
