@@ -23,134 +23,134 @@ export const photos = [
       src: Spyro,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Spyro",
+      alt: "dragon violet attaché avec les amarres d'une montgolfière"
     },
     {
       src: Alvar,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Alvar",
+      alt: "dragon rouge allongé sur des feuilles de salade"
     },
     {
       src: Asher,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Asher",
+      alt: "dragon violet avec des boules de geisha assorties à son collier"
     },
     {
       src: Baruti,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Baruti",
+      alt: "dragon violet attaché avec le fil de sa canne à pêche"
     },
     {
       src: Bubba,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Bubba",
+      alt: "dragon bleu assis sur un dildo"
     },
     {
       src: Cleetus,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Cleetus",
+      alt: "dragon vert dans un bassin rempli d'eau"
     },
     {
       src: Devlin,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Devlin",
+      alt: "dragon bleu assis sur un gâteau"
     },
     {
       src: Gavin,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Gavin",
+      alt: "dragon turquoise avec une tasse autour du pénis"
     },
     {
       src: Gildas,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Gildas",
+      alt: "dragon bleu appuyé sur un pinceau géant"
     },
     {
       src: Halvor,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Halvor",
+      alt: "dragon violet adossé à un grand marteau"
     },
     {
       src: Lateef,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Lateef",
+      alt: "dragon bleu perché sur sa queue"
     },
     {
       src: Lucas,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Lucas",
+      alt: "dragon jaune attaché avec des anneaux de métal"
     },
     {
       src: Magnus,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Magnus (et docteur Shemp)",
+      alt: "dragon ocre attaché et pénétré par un humanoïde jaune"
     },
     {
       src: Nestor,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Nestor (et Gnasty Gnorc)",
+      alt: "dragon vert pénétré par une sorte de gnome géant"
     },
     {
       src: Rosco,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Rosco",
+      alt: "dragon vert attaché avec la sangle de sa besace"
     },
     {
       src: Sadiki,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Sadiki (et Metalhead)",
+      alt: "dragon violet tenu et pénétré par un robot"
     },
     {
       src: Titan,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Titan",
+      alt: "dragon ocre et violet tenant une hache"
     },
     {
       src: Trondo,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Trondo",
+      alt: "dragon jaune ouvrant son pagne"
     },
     {
       src: Zander,
       width: 2,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "Zander",
+      alt: "dragon violet immobilisé par des gangues de cristal"
     }
   ];
   

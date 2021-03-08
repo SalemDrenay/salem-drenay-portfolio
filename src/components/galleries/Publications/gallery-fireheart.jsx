@@ -30,183 +30,183 @@ export const photos = [
       src: Dispute,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "Barovi et Clémentine en désaccord",
+      alt: "un monstre et une adolescente se disputent"
     },
     {
       src: Rencontre,
       width: 4,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "première rencontre",
+      alt: "un monstre s'agenouille devant une petite fille"
     },
     {
       src: Pont,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "le pont sur l'Atlantique",
+      alt: "des ponts reliant des phares en pleine mer"
     },
     {
       src: Photos,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "les proches de Barovi",
+      alt: "photos montrant diverses créatures"
     },
     {
       src: Flashback,
       width: 5,
       height: 4,
-      title: "truc",
-      alt: "texte"
-    },
-    {
-      src: Courtisane,
-      width: 4,
-      height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "souvenirs de lycée",
+      alt: "monstre violet battu et entouré par ses agresseurs"
     },
     {
       src: Palais,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "infiltration dans un palais aérien",
+      alt: "adolescente et monstre violet devant des tours volantes"
+    },
+    {
+      src: Courtisane,
+      width: 4,
+      height: 5,
+      title: "recherche d'informations",
+      alt: "adolescente attrapant un monstre circulaire par le bras"
     },
     {
       src: Venise,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "entrevue à Venise, repaire de pirates volants",
+      alt: "adolescente et monstre violet parlent à une créature en cristaux"
     },
     {
       src: Medaillon,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "le pendentif de Barovi",
+      alt: "médaillon avec photo couvert de taches de sang bleu"
     },
     {
       src: Dechaine,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "Barovi entre dans une rage aveugle",
+      alt: "adolescente effrayée par monstre furieux"
     },
     {
       src: Reconciliation,
       width: 1,
       height: 2,
-      title: "truc",
-      alt: "texte"
+      title: "Clémentine réconforte son ami",
+      alt: "monstre violet qui pleure dans les bras d'une adolescente"
     },
     {
       src: Bataille,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "bataille dans des ruines antiques",
+      alt: "monstre violet et adolescente se battent contre une créature à tentacules dans des ruines"
     },
     {
       src: Hopital,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "tout le monde n'en sort pas indemne",
+      alt: "trio regarde une créature à tentacules allongée sur un lit d'hôpital"
     },
     {
       src: Maison,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "la demeure de l'ennemi",
+      alt: "façade de maison"
     },
     {
       src: Mort,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "piège mortel",
+      alt: "cadavre de créature au visage tranché"
     },
     {
       src: Hologramme,
       width: 5,
       height: 3,
-      title: "truc",
-      alt: "texte"
+      title: "un message est transmis",
+      alt: "trio regarde un hologramme"
     },
     {
       src: CulpaB,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "mauvaise nouvelle",
+      alt: "monstre violet regarde son médaillon en pleurant"
     },
     {
       src: Embarquement,
       width: 4,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "Clémentine et Barovi se jurent d'en finir",
+      alt: "monstre violet et adolescente prêts à embarquer dans un dirigeable"
     },
     {
       src: Meurtre,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "Clémentine se fait attaquer",
+      alt: "adolescente pousse un monstre vert par-dessus bord"
     },
     {
       src: CulpaC,
       width: 3,
       height: 2,
-      title: "truc",
-      alt: "texte"
+      title: "état de choc",
+      alt: "adolescente effrayée et à genoux"
     },
     {
       src: Entrevue,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "Barovi fait face",
+      alt: "deux monstres autour d'une table"
     },
     {
       src: Hangar,
       width: 6,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "pris au piège",
+      alt: "trio dans un hangar dont la porte se fait cribler de balles"
     },
     {
       src: Sauves,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "arrivée inespérée",
+      alt: "deux monstres violets s'enlacent"
     },
     {
       src: Retour,
       width: 5,
       height: 4,
-      title: "truc",
-      alt: "texte"
+      title: "de retour",
+      alt: "adolescente ouvre une porte"
     },
     {
       src: Trio,
       width: 5,
       height: 4,
-      title: "truc",
-      alt: "texte"
+      title: "session de rattrapage",
+      alt: "monstre violet et dragon rouge parlent avec créature à tentacules"
     },
     {
       src: Final,
       width: 3,
       height: 5,
-      title: "truc",
-      alt: "texte"
+      title: "quatre ans plus tard",
+      alt: "adolescente et monstre violet regardent un coucher de soleil au bord de la mer"
     }
   ];
   

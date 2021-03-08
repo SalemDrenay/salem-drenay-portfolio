@@ -8,28 +8,28 @@ export const photos = [
       src: ShovelKnight,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Shovel Knight (Shovel Knight © Yacht Club Games)",
+      alt: "chevalier bleu avec deux grandes cornes et une pelle"
     },
     {
       src: KingKnight,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "King Knight (Shovel Knight © Yacht Club Games)",
+      alt: "chevalier doré avec une cape de fourrure et un sceptre"
     },
     {
       src: PlagueKnight,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Plague Knight (Shovel Knight © Yacht Club Games)",
+      alt: "petit homme avec un manteau ample et un masque de la peste qui jongle avec des flasques remplies"
     },
     {
       src: SpecterKnight,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Specter Knight (Shovel Knight © Yacht Club Games)",
+      alt: "homme masqué avec un manteau rouge déchiqueté et une grande faux"
     }
   ];

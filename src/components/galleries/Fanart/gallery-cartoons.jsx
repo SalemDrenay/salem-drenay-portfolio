@@ -23,112 +23,112 @@ export const photos = [
       src: AotExplo,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Blason des bataillons d'exploration (Attack on Titan © Hajime Isayama)",
+      alt: "blason avec deux ailes entrecroisées"
     },
     {
       src: AotBrigades,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Blason des brigades spéciales (Attack on Titan © Hajime Isayama)",
+      alt: "blason avec une licorne verte"
     },
     {
       src: AotGarnison,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Blason de la garnison (Attack on Titan © Hajime Isayama)",
+      alt: "blason avec des roses"
     },
     {
       src: Briareos,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Briareos (Appleseed © Masamune Shirow)",
+      alt: "cyborg avec deux longues excroissances comme des oreilles de lapin"
     },
     {
       src: Adora,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Adora (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "adolescente blonde qui tient une épée"
     },
     {
       src: Catra,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Catra (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "adolescente-chatte aux cheveux ébouriffés et aux griffes sorties"
     },
     {
       src: SheRa,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "She-Ra (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "femme blonde qui brille et tient une épée"
     },
     {
       src: Glimmer,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Glimmer (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "jeune fille aux cheveux roses et qui tient une boule de lumière"
     },
     {
       src: Bow,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Bow (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "adolescent prêt à tirer une flèche"
     },
     {
       src: Perfuma,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Perfuma (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "adolescente avec des fleurs dans les cheveux"
     },
     {
       src: Mermista,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Mermista (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "adolescente qui tient un trident"
     },
     {
       src: Entrapta,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Entrapta (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "adolescente aux longs cheveux violets en tenue de mécanicienne"
     },
     {
       src: Scorpia,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Scorpia (She-Ra and the princesses of power © Dreamworks animation)",
+      alt: "femme-scorpion avec des pinces en guise de mains"
     },
     {
       src: Wirt,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Wirt (Over the garden wall © Cartoon Network)",
+      alt: "jeune adolescent avec un chapeau pointu et une cape"
     },
     {
       src: Greg,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Greg (Over the garden wall © Cartoon Network)",
+      alt: "jeune garçon avec une théière sur la tête et qui tient un crapaud"
     },
     {
       src: Beast,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "The Beast (Over the garden wall © Cartoon Network)",
+      alt: "silhouette noire aux yeux brillants et à la ramure imposante"
     }
   ];

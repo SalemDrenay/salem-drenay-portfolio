@@ -9,35 +9,35 @@ export const photos = [
       src: Mummy,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Mummy Dragon (Wonder Boy: The Dragon's Trap © Lizardcube)",
+      alt: "gros dragon avec des ailes rouges et emmailloté de bandelettes"
     },
     {
       src: Zombie,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Zombie Dragon (Wonder Boy: The Dragon's Trap © Lizardcube)",
+      alt: "dragon vert décrépit aux ailes roses et qui crache un liquide vert"
     },
     {
       src: Captain,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Captain Dragon (Wonder Boy: The Dragon's Trap © Lizardcube)",
+      alt: "dragon bleu avec un manteau, un chapeau et un crochet de pirate"
     },
     {
       src: Daimyo,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Daimyo Dragon (Wonder Boy: The Dragon's Trap © Lizardcube)",
+      alt: "dragon rose en armure japonaise avec un katana et qui génère des éclairs"
     },
     {
       src: Vampire,
       width: 1,
       height: 1,
-      title: "truc",
-      alt: "texte"
+      title: "Vampire Dragon (Wonder Boy: The Dragon's Trap © Lizardcube)",
+      alt: "dragon vert aux ailes comme un manteau et avec un deuxième visage sur le ventre"
     }
   ];
